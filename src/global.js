@@ -1,1 +1,1 @@
-export const API = "https://diet-app-backend.onrender.com";
+export const API = "https://diet-app-backend.onrender.com"

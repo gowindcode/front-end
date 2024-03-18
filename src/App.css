@@ -1,4 +1,5 @@
 @import '../node_modules/antd/dist/reset.css';
+@import url('../src/Style.css');
 
 
 *{
@@ -11,108 +12,47 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: darkgrey;
+  background-color: #000;
 }
 
+/* --------------------------------//nav bar menu -----------------------------------------*/
 .Drawer {
-  background-color:  #aedd05;;
+
+  background-color:  #aedd05;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+   
 }
+
+.menu {
+  
+  background-color: #749402;
+  font-size: 20px;
+  border: none;
+  padding-left: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000
+}
+
 
 .MenuOutlined {
   color: white;
   font-size: 30px;
-  /* Add any other styles you want to apply */
+  
 }
 .menuIcon {
   background-color:  #aedd05;;
   height: 60px;
   padding-left: 12px;
-  padding-right: 12px
+  /* padding-right: 12px */
 
-    /* backgroundColor: "violet", 
-    height: 60, 
-    paddingLeft: 12,
-    paddingTop: 12 */
-
-}
-
-.headerMenu {
-  background-color:  #aedd05;
-  background-color: #3d4d05;
-}
-
-.appBody {
-  
-  background-color: rgb(255, 0, 191);
-  /* color: whitesmoke; */
-  display: flex;
-  flex-direction:column;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* font-weight: bold; */
-  /* border: none; */
-  /* flex: 1;
-  height: 100vh; */
-}
- 
-/* 
-.signup {
-  background-color: rgb(53, 241, 216);
-  border: 1px solid black;
-  height:  100vh;
-}
- */
-
-
-/* .dietRegForm {
-  margin-top: 20px;
-  margin-left: 80px;
-} */
-
-/* .container {
-
-  background-color: blueviolet;
-} */
-
-.Footer {
-margin-top: auto;
-
-background-color: black;
-color: whitesmoke;
-height: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 12px;
-padding: 25px 0;
-
-/* //position: fixed;
-//bottom: 0;
-//width: 100%; */
-}
-
-@media (max-width:500px) {
-  .headerMenu {
-    display: none;
-  }
-}
-@media (min-width:500px) {
-  .menuIcon {
-    display: none;
-  }
-}
-
-
-/* --------Start page-------------- */
-
-
-.container {
-  display: flex;
-  /* flex-direction: row; */
-  justify-content: center;
-  align-items: center;
-  background-color: #01270a;
-  height: 95vh;
 }
 
 .logo {
@@ -123,59 +63,238 @@ padding: 25px 0;
   margin-top: 6px;
   margin-left: 10px;
   margin-bottom: 0px;
-  /* box-shadow: 0 0 20px orangered; */
-  /* box-shadow: 
-  -5px 0 5px yellow,
-   5px 0 5px rgb(173, 50, 1),
-   0 -5px 5px rgb(96, 1, 173), 
-   0 5px 5px orangered; */
-  /* background-color: #7a9b03; */
 }
-.rectangle {
-  width: 100vw;
-  height: 95vh;
-  background-color: #aedd05;
-  overflow: hidden;
+
+.headerMenu {
+  background-color:  #aedd05;
+  background-color: #3d4d05;
+}
+
+.appBody {
+  
   display: flex;
-  flex-direction: row;
+  flex-direction:column;
+}
+
+.routers-bar {
+
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+}
+
+.ant-menu-title-content:hover {
+  color: #ffff;
+}
+
+/* //----------------Badge from antd--------- */
+
+.cart-badge .ant-badge {
+   
+    margin-left: 8px;
+    margin-top: -6px;
+}
+
+/* ---------------------------------------Footer-------------------------------- */
+
+.Footer-div {
+background-color: rgb(17, 17, 17);
+font-size: 12px;
+}
+
+.Footer-inner{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.Footer-details{
+
+  margin-bottom: 0;
+  text-align: center;
+  color: #aedd05;
+}
+
+.Footer-JoinUs{
+
+  font: bold;
+  font-family: "Protest Revolution", sans-serif;
+  color: #CD201F;
+  text-align: center;
+
+}
+.Footer-city-Branches {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Footer-city-Branches p{
+
+  padding-left: 8px;
+  margin-bottom: 2px;
+  text-align: center;
+  color: #aedd05;
+}
+
+.Footer-details span {
+
+  padding-left: 10px;
+  margin-bottom: 2px;
+  text-align: center;
+  color: #aedd05;
+}
+
+.Footer-email {
+
+  color: #CD201F;
+  padding-left: 10px;
+}
+
+
+
+.Footer-city-Branches{
+
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.copywright {
+
+  margin-bottom: 5px;
+  text-align: center;
+ 
+}
+.copywright span {
+
+  padding-left: 10px;
+  color: #aedd05;
+ 
+}
+
+.copywright .Footer-backToHome {
+
+  cursor: pointer;
+}
+
+
+/* -----------------Footer social media */
+
+.Footer-socialMedia {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  column-gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+
+.Footer-socialMedia .Android:hover {
+  
+  border-radius: 12px;
+  background-color: #000;
+  color:#a4c639;
+  cursor: pointer;
+}
+
+.Footer-socialMedia .Apple:hover {
+
+  color:#ffffff;
+  cursor: pointer;
+}
+
+.Footer-socialMedia .Twitter:hover {
+
+  color:#1DA1F2;
+  cursor: pointer;
+}
+
+.Footer-socialMedia .WhatsApp:hover {
+  color: #075e54;
+  cursor: pointer;
+}
+
+.Footer-socialMedia .Youtube:hover {
+  color: #CD201F;
+  cursor: pointer;
+}
+
+.Footer-socialMedia .Skype:hover {
+  color:  #00aff0;
+  cursor: pointer;
+}
+
+.Footer-socialMedia .Facebook:hover {
+  color: #316FF6;
+  cursor: pointer;
+}
+
+.Footer-socialMedia .Instagram:hover {
+  color: #d62976;
+  cursor: pointer;
+}
+
+.Footer-socialMedia .X:hover {
+  color: #1DA1F2;
+  cursor: pointer;
+}
+
+.Footer-socialMedia .Spotify:hover {
+  border-radius: 12px;
+  background-color: #000;
+  color: #1db954;
+  cursor: pointer;
+}
+
+/* --------Start page-------------- */
+
+.StartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aedd05;
+}
+
+.rectangle {
+
+  height: 95vh;
+  overflow: visible;
+  display: flex;
+
 }
 
 .wana-get {
 
   display: flex;
   flex-direction: column;
-  width: 60vw;
+
 }
 
 .getDiet {
   
   font-family: "Protest Riot", sans-serif;
-
-  /* text-shadow: 0 3px 10px blue;
-  background-color: aqua; */
   text-align: center;
-  padding-top: 10vh;
+
 }
  
 .youR-right {
   font-family: "Anta", sans-serif;
   text-align: center;
-  /* background-color: pink; */
 }
 
 .dietPera {
-  margin-top: 20px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: pink; */
   
 }
+
 .welcome {
   margin-top: 10px;
   font-family: "Pacifico", cursive;
-  font-size: 30px;
   color: #2c3801;
 }
 
@@ -196,8 +315,7 @@ padding: 25px 0;
 
   font-family: "Protest Revolution", sans-serif;
   color: #db053b;
-  font-size: 30px;
-  /* text-shadow: 1px 5px #000000; */
+
 }
 .belive {
   border-top: 20px;
@@ -227,161 +345,41 @@ padding: 25px 0;
   background-color:  #2c3801;
   box-shadow: 10px 5px black;
 }
-.home-girl {
-  
-  padding-top: 10vh;
-  /* background-color: aqua;
-  border: 2px solid black; */
-}
-
-.home-girl img {
-
-  /* width: auto; */
-  height: 600px;
-}
-
-
-.menu {
-  
-  background-color: #749402;
-  color: whitesmoke;
-  font-size: 20px;
-  border: none;
-  padding-bottom: 0;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  /* style={{
-    backgroundColor: "#3d4d05", 
-    color: "white",
-    fontSize: "20px",
-    border: "none",
-}} */
-}
-
 
 /* -------------Home page--------------------------- */
 
 .HomeDiv {
-  /* background: linear-gradient(to right, 
-  white 0%, 
-  rgb(218, 202, 202) 16.66%, 
-  red 16.66%, 
-  red 33.33%, 
-  blue 33.33%, 
-  blue 50%, 
-  orange 50%, 
-  orange 66.66%, 
-  green 66.66%, 
-  green 83.33%, 
-  purple 83.33%, 
-  purple 100%
-); */
-/* display: flex; */
-/* flex-direction: row; */
-background-image: linear-gradient(rgba(145, 255, 0, 0.877), rgba(118, 218, 3, 0.5));
-height: 100vh;
+background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .homeContent {
- 
- display: flex;
- flex-direction: row;
+
  margin-top: 0;
  margin-bottom: 0;
 }
-
-.Fat-fit {
-  width: 20vw;
-}
-
-.wavy {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-size: 60px;
-  font-weight: bold;
-  color: #ffffff;
-  border-radius: 40px;
-}
-
-.wavy span {
-  position: relative;
-  display: inline-block;
-  color: #db053b;
-  font-size: 20px;
-  text-transform: uppercase;
-  animation: animate 1s ease-in-out infinite;
-  animation-delay: calc(0.1s * var(--i));
-}
-
-@keyframes animate {
-  0% {
-    transform: translateY(0px);
-  }
-  20% {
-    transform: translateY(-20px);
-  }
-  40%{
-    transform: translateY(-40px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-
-
-.Fat-fit img{
-  width: auto;
-  padding: 0;
-  margin: 0;
-  margin-top: 60px;
- 
-}
-.details {
-  width: 50vw;
-  /* background-color: orange; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-  
 .dietPlate {
-  /* font-family: "Ubuntu", sans-serif;
-  font-family: "Pacifico", cursive; */
-  font-family: "Fira Sans", sans-serif;
-  height: 10vh;
-  font-size: 46px;
-  margin-right: 10px;
-  display: flex;
-  justify-content: center;
-  /* padding-left: 50px; */
+  font-family: "Pacifico", cursive;
+  height: 6vh;
   align-items: center;
-  padding-top: 50px;
+  color: #2c3801;
 }
-
-.dietPlate img {
- 
-  width: 50px;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
 
 .delicious-Box {
   display: flex;
-  flex-direction: row;
-  /* background-color: navy; */
-  gap: 20px;
+  column-gap: 20px;
+  margin: 0 auto;
+  padding: 0 auto;
+  line-height: normal;
 }
 
 .Delicious {
+
   font-family: "Love Light", cursive;
   font-weight: bold;
   font-size: 80px;
   color: #db053b;
-  /* background-color: pink; */
+  margin: 10px 0 0 0;
+  padding: 0 auto;
 }
 
 .Delicious p {
@@ -391,13 +389,14 @@ height: 100vh;
 .food {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:last baseline;
   margin-right: 10px;
   font-family: "Protest Riot", sans-serif;
   font-size: 30px;
   font-weight: bold;
   gap: 10px;
   background-color: transparent;
+  color: #2c3801;
 }
 
 .food p {
@@ -419,20 +418,28 @@ height: 100vh;
 
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
+  margin: 0 auto;
+  
 }
 
 .will-get {
 
   font-family: "Protest Strike", sans-serif;
   color: orangered;
-  margin-top: 10px;
+  margin: 0 auto;
 }
 
 .list {
   font-family: "Anta", sans-serif;
   color: #01270a;
-  margin-top: 16px;
+  margin-top: 10px;
   line-height: 30px;
+  text-align: left;
+}
+
+.list > li:hover {
+  color: #001104;
+  font-weight: bold;
 }
 
 .knowMore-BTN {
@@ -448,63 +455,262 @@ height: 100vh;
 }
 
 
-.imageContainer {
-   width: 25vw;
-}
-
-.imageContainer img {
-  /* background-color: red; */
-  margin-top: 60px;
-}
-
 /* ------------------------ Benifits Page-------------------------------------- */
 
 .Diet-Benifits {
-  background-image:  linear-gradient((#aedd05), rgba(163, 180, 3, 0.74));
-  height: 100vh;
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+
 }
 
-.benifits-Container {
+.Benifits-Container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 8px;
+}
+.Benifit-Detail-1, .Benifit-Detail-2, 
+.Benifit-Detail-4, .Benifit-Detail-5, 
+.Benifit-Detail-6, .Benifit-Detail-7,
+.Benifit-Detail-8, h3{
+  text-align: center;
+}
+.Benifit-Detail-123 {
+  display: flex;
+  margin-top: 8px;
+}
+
+.Benifit-Detail-1 {
+  color:#2c3801;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  overflow: visible;
+  background-color: #749402;
+  border-radius: 20px;
+  margin: 8px;
+}
+.Benifit-Detail-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Benifit-Detail-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Benifit-Detail-3-pera {
+  text-align: center;
+}
+.Benifit-Detail-3-pera-title {
+  font-weight: bold;
+}
+
+.Benifit-Detail-1:hover, 
+.Benifit-Detail-2:hover, 
+.Benifit-Detail-3:hover, 
+.Benifit-Detail-4:hover,
+.Benifit-Detail-5:hover,
+.Benifit-Detail-6:hover,
+.Benifit-Detail-7:hover,
+.Benifit-Detail-8:hover {
+  box-shadow: #000 0 0 16px;
+}
+
+.Benifit-Detail-1 >.Reduced-Risk {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.benifitDetail {
-  width: 40vw;
-  height: auto;
-  color: red;
-  border: 1px solid blue;
-
-
+.Benifit-Detail-1 >.Reduced-Risk span {
+  display: flex;
+  margin: 8px;
 }
 
-.AHealthy {
-
-  background-color: #db053b;
+.Benifit-Detail-2 {
+  color:#2c3801;
+  font-weight: bold;
+  display: flex;
+  padding: 8px;
+  background-color: #749402;
+  border-radius: 20px;
+  margin: 8px 8px 5px 8px;
 }
 
-.BenifitLists {
- font-weight: bold;
+.Benifit-Detail-2 p {
+  padding-top: 10px;
 }
 
-.BenifitLists .list {
-  background-color: aqua;
-}
-.Benifit-RightSIDE {
-  width: 55vw;
-  height: auto;
-  border: 2px solid black;
-  background-color: #01270a;
+.Benifit-Detail-2 span {
+  padding: 5px;
+  display: flex;
+  text-align: left;
 }
 
-.Benifit-RightSIDE img {
-
-  height: 70px;
+.Benifit-Detail-3 {
+  color:#2c3801;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 0 10px;
+  background-color: #749402;
+  border-radius: 20px;
+  margin: 10px 5px 8px 5px;
+}
+.Benifit-Detail-3-pera-details {
+  text-align: center;
+  padding-top: 5px;
+  text-indent: 18px;
 }
 
+.Benifit-Detail-4 {
+  color:#2c3801;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 0 10px;
+  background-color: #749402;
+  border-radius: 20px;
+  margin: 5px 5px 5px 10px;
+}
+.Benifit-Detail-4-details {
+  padding: 10px;
+}
+.Benifit-Img-4 >img {
+  padding: 0 0 5px 0;
+  border-radius: 20px;
+}
 
+.Benifit-Detail-5 {
+  color:#2c3801;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 0 10px;
+  background-color: #749402;
+  border-radius: 20px;
+  margin: 5px 5px 5px 10px;
+}
+
+.Benifit-Detail-5  p{
+  margin: 0 0 5px 10px;
+  padding: 0 10px 0 px;
+  /* background-color: #1DA1F2; */
+}
+
+.Benifit-Detail-5  p span {
+  background-color: #a4c639;
+  display: inline-block
+}
+
+.Benifit-Detail-5 span {
+  display: flex;
+  padding: 5px 5px 5px 50px;
+  text-align: left;
+}
+
+.Benifit-Img-5 >img {
+  padding: 0 0 5px 0;
+  border-radius: 20px;
+}
+
+.Benifit-Detail-6 {
+  color:#2c3801;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 0 10px;
+  background-color: #749402;
+  border-radius: 20px;
+  margin: 5px 5px 5px 10px;
+}
+
+.Benifit-Detail-6 span {
+  display: flex;
+  padding: 5px 0 0 10px;
+  text-align: left;
+}
+
+.Benifit-Detail-6 p{
+  margin: 5px 0 0 10px;
+}
+
+.Benifit-Detail-6 img {
+
+  height: 380px;
+}
+
+.Benifit-Detail-7 {
+  color:#2c3801;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 0 10px;
+  background-color: #749402;
+  border-radius: 20px;
+  margin: 5px 5px 5px 10px;
+}
+
+.Benifit-Detail-7 p{
+  margin: 8px 0 0 5px;
+}
+
+.Benifit-Detail-7 span {
+
+  display: flex;
+  text-align: left;
+  padding: 5px 0 0 20px;
+}
+
+.Benifit-Detail-8 {
+  color:#2c3801;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #749402;
+  border-radius: 20px;
+  margin: 5px 5px 5px 10px;
+}
+.Benifit-Detail-8-details >h4{
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.Benifit-Detail-8 span {
+
+  display: flex;
+  text-align: left;
+  padding: 5px 0 5px 20px;
+}
+
+.Benifits-BTN-DIV {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0px 0;
+  padding: 5px 0 16px 0;
+}
+
+.Benifits-BTN-DIV button {
+  background-color: #749402;
+  box-shadow: 0 5px 5px black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Benifits-BTN-DIV button:hover {
+  background-color:  #2c3801;
+  box-shadow: 0 10px 10px black;
+  font-weight: bold;
+}
 
 
 /* ---------------------------Register/signup----------------------------------- */
@@ -524,8 +730,6 @@ height: 100vh;
 .innerSignup {
   display: flex;
   flex-direction: column; 
-  /* /* border: 1px  solid black;  */
-  /* background-color: orange;  */
   margin-top: 40px;
 }
 
@@ -545,7 +749,6 @@ height: 100vh;
   font-weight: bold;
   text-shadow: 2px 0 0 rgb(221, 218, 218);
   text-decoration: underline;
-  /* border: 2px solid orangered; */
 }
 
 
@@ -553,7 +756,7 @@ height: 100vh;
  display: flex;
  justify-content: center;
  align-items: center;
- width: 70vw;
+ text-align: center;
 }
 
 .BTN-SIGNUP {
@@ -588,11 +791,9 @@ height: 100vh;
 
 .logDiv {
   background-color: #aedd05;
-  /* background-color:  linear-gradient((#aedd05), rgba(163, 180, 3, 0.74)); */
   background-image: url("./assets/loginbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -601,15 +802,14 @@ height: 100vh;
 .Innerlog-Div {
   display: flex;
   flex-direction: column; 
-  justify-content: center;
-  height: 26vh;
-  width: 60vw;
-  /* background-color: rgb(0, 132, 255);  */
-  margin-top: 100px;
+  justify-content: start;
+  padding-top: 100px;
+  height: 95vh;
+  width: 90vw;
 }
 
 .signin {
-  width: 60vw;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -617,15 +817,14 @@ height: 100vh;
   text-decoration: underline;
 }
 
-.loginForm {
-  margin: auto;
-  width: 60vw; 
+/* .loginForm {
   font-weight: bold;
+  /* justify-content: center; */
+ /* display: flex;
 }
+*/
 
 .LogBTNDiv {
-  /* background-color: aqua; */
-  width: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -647,64 +846,1449 @@ height: 100vh;
 .logImgs {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  /* background-color: grey; */
-  width: 100vw;
-  margin-top: auto;
+  justify-content: end;
+  align-items: end;
+  width: max-content;
 }
 
-.logImgs img {
+/* .logImgs img {
 
-  height: 300px;
-}
+  height: 100px;
+} */
 
 
 /* ---------------------------Products Page------------------------------------------ */
 
+/* //for loading */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-spinner{
+  color: #749402;
+} 
+
 .productDiv {
-  
-  /* background-color: #aedd05; */
   background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* height: 100vh; */
   display: flex; 
   flex-direction: row; 
   flex-wrap: wrap;
   justify-content: center; 
-  align-items: center; 
-  gap: 10px;
-  margin: 0;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+/* //card main antd */
+.ant-card {
+  background-color: #ffffff;
+}
+
+/* //card antd img cover */
+.ant-card-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
 }
 
-.card {
-  /* height: 200px; */
+/* //title antd product name */
+.ant-card .ant-card-meta-title {
+  font-weight: bold;
+  font-size: 13px;
+  overflow: hidden;
+  white-space:pre-line;
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',
+  Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji',
+  'Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  margin: 8px 3px 10px 3px;
+  height: 60px;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid rgb(211, 199, 199);
+  line-height: 1.10;
+}
+
+.ant-card .ant-card-meta-title:hover{
+
+  color: #db053b;
+}
+
+.ant-card .ant-card-body {
+ 
+  padding: 4px 10px;
+}
+
+.CardIn {
+width: auto;
+height: 470px;
+}
+
+.CardIn h6 {
+ text-decoration:line-through;
+ margin-bottom: 0;
+}
+
+.CardIn img {
+  object-fit: contain;
+  margin-bottom: 0%;
+  padding: 2px 10px 2px 10px;
+}
+
+.CardIn img:hover{
+  object-fit: fill;
+}
+
+/* ---description--------  */
+.ProDescription {
+  margin-bottom: 0%;
+  height: 90px;
+  overflow: hidden;
+  white-space: inherit;
+  text-align: justify;
+}
+
+.ProDescription span {
+
+  font-weight: bold;
+}
+
+.StockRat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.StockRat .stock {
+
+  color: #026417;
+}
+
+.StockRat p {
+  margin-bottom: 0%;
+  font-weight: bold;
+}
+
+.OfferPrice {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.OfferPrice span {
+
+  font-size: 26px;
+  font-weight: bold;
+  color:#db053b;
+}
+
+.OfferPrice span sup {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Add2Cart {
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Add2Cart button {
+
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+
+}
+
+
+.Add2Cart >.ant-btn span:hover {
+
+  font-weight: bold;
+
+}
+
+
+/* --------------------Rating star----------------------- */
+
+.fa-star-o {
+
+  color: goldenrod;
+}
+
+.fa-star-half-full {
+  color: goldenrod;
+}
+
+.fa-star {
+  color: goldenrod;
+}
+
+
+/* ----------------------------Fit Chart - Body Height and Weight chart-----------------------------*/
+.ChartDiv {
+
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  height: max-content;
+}
+
+.top-peraDiv p{
+  margin-bottom: 0;
+  background-color: #3d4d05;
+  border-radius: 20px;
+  padding: 8px 4px 8px 4px;
+  width: max-content;
+  color: #ffffff;
+  margin: 6px 0 8px 0;
+}
+
+.top-peraDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 4px 0 4px;
+}
+
+
+.Chart-title1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: max-content;
+}
+
+
+.Chart-title2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.InnerChart {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: max-content;
+  column-gap: 10px;
+  padding: 0 4px 0 4px;
+}
+
+.TableUpLeftctn {
+  
+  background-color:#749402;
+  width: 30vw;
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: 200;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #01270a;
+}
+
+.TableUpRightctn {
+  
+  background-color: #749402;
+  width: 30vw;
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: 200;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #01270a;
+}
+
+/* //------thead */
+.ant-table-wrapper .ant-table-thead >tr>th {
+
+  background-color:#749402;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ant-table-cell{
+  color:#2c3801;
+  font-weight: bold;
+  text-align: center;
+}
+
+.custom-row:hover{
+  color: #2c3801;
+  font-weight: bold;
+}
+
+.leftView{
+  display: flex;
+  flex-direction: column;
+  color: #2c3801;
+}
+
+.centerImageDiv {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.Rightview {
+  display: flex;
+  flex-direction: column;
+}
+.FitbottmDetail {
+  
+  padding: 8px;
+}
+
+.FitbottmDetail  p{
+  margin-bottom: 0;
+  padding: 8px;
+  text-align: justify;
+}
+
+.FitbottmDetail  p span{
+  font-weight: bold;
+}
+
+.FAQDIV {
+  padding: 8px;
+  text-align: justify;
+}
+
+.FAQDIV:hover {
+  color:#db053b;
+}
+
+.FAQDIV p{
+  margin-bottom: 2px;
+  text-align: justify;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.faqs-lists {
+  padding: 8px 8px 8px 12px;
+  background-color:#3d4d05;
+
+}
+
+.faqs-lists span {
+
+  color:#749402;
+}
+
+.faqs-lists span:hover {
+  font-weight: bold;
+  color:#749402;
+}
+
+.faqs-lists > span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+/* ----------------------------------------------Bill-Div---------------------------------------- */
+
+.Bill-Div {
+
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+}
+
+.Bill-Div-Inner {
+  min-height: 100vh; 
+} 
+
+.Bill-Div-Inner span{
+  margin: 18px 0 16px 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Tax-GrandTotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  margin-top: 5px;
+  align-items: end;
+  background-color: #ffffff;
+  padding-right: 14px;
+}
+
+.Tax-GrandTotal p {
+  font-size: 14px;
+  margin-bottom: 0;
+  width: 160px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.Bill-Payment-method-Div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 60px;
+}
+
+/* -------------Bill payment */
+
+.Bill-Payment-method-Div p {
+  font-size: 18px;
+  margin-bottom: 0;
+  padding: 0 0 0 8px;
+}
+
+.select-payment .ant-select-selection-item,
+.select-payment .ant-select-dropdown-menu-item {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Bill-Payment-Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Bill-Div-Inner span {
+
+  margin: 0; 
+  font-size: 14px;
+}
+
+.Bill-Payment-Btn Button {
+  margin: 0;
+  background-color: #749402;
+  box-shadow: 2px 2px black;
+  color: #ffffff;
+}
+
+
+.Bill-Payment-Btn Button:hover {
+
+  box-shadow: 5px 5px black;
+  font-weight: bold;
+
+}
+
+/* -----------------------------------------------BillSuccessCard--------------------------------- */
+
+.BillSuccessCard-Div{
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  height: 100vh;
+}
+
+.BillSuccess-Card-inner {
+
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+  padding: 80px 0 0 0;
+  align-items: center;
+  font-weight: bold;
+  color: #2c3801;
+}
+
+.BillSuccess-Card-inner p span {
+
+  color: #db053b;
+}
+
+/* .BillSuccess-Card-inner img {
+
+  width: auto;
+} */
+/* -------------------------------------------------Bill-Success-Cash-Div--------------------------------- */
+
+.Bill-Success-Cash-Div {
+
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  height: 100vh;
+}
+
+.Bill-Success-Cash-inner{
+
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+  padding: 80px 0 0 0;
+  align-items: center;
+  font-weight: bold;
+  color: #2c3801;
+}
+
+.Bill-Success-Cash-inner p span {
+
+  color: #db053b;
+}
+/* 
+.Bill-Success-Cash-inner img {
+
+  width: 300px;
+} */
+
+
+/* -----------------------------------------------Cart_Div-------------------------------------- */
+
+.Cart_Div {
+
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cart-Div-Cards {
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-top: 12px;
+}
+
+.NoItemsMsg {
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.NoItemsMsg p span {
+  background-color: #db053b;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Back2ProductsBtn {
+  background-color:#749402;
+  font-weight: bold;
+  color:#ffffff;
+}
+
+.Back2ProductsBtn:hover {
+  background-color:  #ffffff;
+  box-shadow: 10px 6px black;
+  font-weight: bold;
+}
+.CARD {
+  display: flex;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 20px;
+}
+.cart-inner-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.CARD:hover {
+
+  box-shadow: 0 0 10px #749402;
+
+}
+.Cart-Remove-Btn :hover {
+    color: #db053b;
+}
+.Cart-Remove-Btn button:hover {
+  font-weight: bold;
+  box-shadow: 0 5px 5px #000;
+}
+
+.Cart-Go-To-Payment-Btn {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.Cart-Go-To-Payment-Btn Button{
+  background-color:#749402;
+  font-weight: bold;
+  color:#ffffff;
+  font-weight: bold;
+  box-shadow: 2px 2px black;
+}
+
+.Cart-Go-To-Payment-Btn Button:hover{
+  box-shadow: 5px 5px black;
+  background-color: #5e7700;
+}
+
+
+/* ------------------------------------------About us-------------------------------- */
+
+.Aboutus-div {
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  display: flex;
+
+}
+
+.Aboutus-inner{
+  display: flex;
+  /* flex-direction: row; */
+  column-gap: 10px;
+}
+
+.Aboutus-details {
+  display: flex;
+  flex-direction: column;
+  width: 58vw;
+  height: auto;
+}
+
+.Aboutus-AboutUs {
+  margin: 40px 0 0 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Anta", sans-serif;
+  color: #01270a;
+  border-bottom: #01270a 2px solid;
+  
+}
+
+.weAre {
+  margin: 20px 0 0 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #01270a;
+  /* background-color: aqua; */
+}
+
+.Aboutus-details span {
+  text-align: center;
+}
+.JoinUs {
+  margin: 10px 0 0 30px;
+  font-family: "Love Light", cursive;
+  font-size: 36px;
+  font-weight: bold;
+  color: #db053b;
+}
+
+.Head-Office {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 0 30px;
+  color: #01270a;
+  /* background-color: aquamarine; */
+}
+
+.email {
+  margin: 3px 0 0 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color:#db053b;
+  text-shadow: #2c3801 0 5px 5px;
+  /* background-color: #026417; */
+}
+
+.Aboutus-Branches {
+  margin: 10px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  /* column-gap: 10px; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+
+.Branch {
+  display: block;
+  margin-top: 24px;
+  text-decoration: underline;
+}
+.city-Branches {
+  display: flex;
+  /* flex-direction: row; */
+  text-overflow: ellipsis;
+  column-gap: 18px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.city-Branches p:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.Aboutus-BTN-Div {
+  margin: 20px 0 0 20px;
+    text-align: center;
+}
+
+.Aboutus-BTN-Div button {
+
+  background-color: #749402;
+  box-shadow: 5px 1px black;
+  text-align: center;
+  color: #ffffff;
+}
+  
+.Aboutus-BTN-Div button:hover {
+
+  background-color:  #ffffff;
+  box-shadow: 10px 5px black;
+  font-weight: bold;
+      
+}
+
+.socialMedia {
+
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  column-gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.socialMedia .Android:hover {
+  
+  border-radius: 12px;
+  background-color: #000;
+  color:#a4c639;
+  cursor: pointer;
+}
+
+.socialMedia .Apple:hover {
+
+  color:#ffffff;
+  cursor: pointer;
+}
+
+.socialMedia .Twitter:hover {
+
+  color:#1DA1F2;
+  cursor: pointer;
+}
+
+.socialMedia .WhatsApp:hover {
+  color: #075e54;
+  cursor: pointer;
+}
+
+.socialMedia .Youtube:hover {
+  color: #CD201F;
+  cursor: pointer;
+}
+
+.socialMedia .Skype:hover {
+  color:  #00aff0;
+  cursor: pointer;
+}
+
+.socialMedia .Facebook:hover {
+  color: #316FF6;
+  cursor: pointer;
+}
+
+.socialMedia .Instagram:hover {
+  color: #d62976;
+  cursor: pointer;
+}
+
+.socialMedia .X:hover {
+  color: #1DA1F2;
+  cursor: pointer;
+}
+
+.socialMedia .Spotify:hover {
+  border-radius: 12px;
+  background-color: #000;
+  color: #1db954;
+  cursor: pointer;
+}
+
+.Aboutus-Img {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: auto;
+}
+
+
+/* ---------------------------------//Diet Tips---------------------------------------- */
+
+.Tips-Div {
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+}
+
+/* ----Tips Details-1--- */
+.Tips-Details-top {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #aedd05;
-  border:#3d4d05 2px solid;
+}
+
+.Tips-Details-1 {
+width: 96vw;
+border: 2px solid #5e7700;
+display: flex;
+flex-direction: column;
+margin: 16px 0 0 0;
+color: #2c3801;
+}
+
+.Tips-Details-1 h3 {
+  display: block;
+  text-align: center;
+  padding: 5px 0 8px 0;
+}
+
+.Tips-Details-1 p, h3, span {
+  color: #2c3801;
+}
+
+.Tips-Details-1 p, 
+.Tips-Details-2 p, 
+.Tips-Details-3 p, 
+.Tips-Details-4 p, 
+.Tips-Details-5 p, 
+.Tips-Details-6 p,
+.Tips-Details-7 p,
+.Tips-Details-8 p {
+  padding: 0 0 0 10px;
+  margin-bottom: 3px;
+}
+
+.Tips-Details-1-inner-span {
+   padding: 5px 0 5px 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-items: center; */
+}
+
+.Tips-Details-1-inner-span span {
+
+  display: block;
+  padding: 5px 0 0 5px;
+}
+
+.Tips-Details-1-inner {
+  display: flex;
+}
+
+/* ----Tips Details-2--- */
+
+.Tips-Details-2 {
+  width: 96vw;
+  border: 2px solid #5e7700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0 0 0;
+  color: #2c3801;
+}
+
+.Tips-Details-2 h3 {
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+}
+.Tips-Details-2-inner {
+
+  display: flex;
+  width: 90vw;
+  /* justify-content:space-between; */
+  align-items: center;
+}
+
+.Tips-Details-2-inner-pera {
+  padding-top: 24px;
+}
+
+.menImg img {
+  width: 240px;
+}
+.womenImg img {
+  width: 300px;
+}
+
+/* ----Tips Details-3--- */
+
+.Tips-Details-3 {
+  width: 96vw;
+  border: 2px solid #5e7700;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 0 0;
+  color: #2c3801;
+}
+
+.Tips-Details-3 h3 {
+  display: block;
+  text-align: center;
+  padding-top: 5px;  
+}
+
+.Tips-Details-3 p {
+  
+  margin-left: 10px;
+}
+
+.Tips-Details-3-inner {
+
+  display: flex;
+  width: 95vw;
+  /* justify-content:space-between; */
+  align-items: center;
+  padding: 8px 0 8px 0;
+}
+
+.Tips-Details-3-inner img {
+
+  width: 250px;
+}
+
+/* ----Tips Details-4--- */
+
+.Tips-Details-4 {
+  width: 96vw;
+  border: 2px solid #5e7700;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 0 0;
+  color: #2c3801;
+}
+
+.Tips-Details-4 h3 {
+
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+}
+.Tips-Details-4-inner {
+ 
+  display: flex;
+  width: 95vw;
+  justify-content:space-between;
+  align-items: center;
+  padding: 8px 0 8px 0;
+
+}
+
+/* ----Tips Details-5--- */
+
+.Tips-Details-5 {
+  width: 96vw;
+  border: 2px solid #5e7700;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 0 0;
+  color: #2c3801;
+}
+
+.Tips-Details-5 h3 {
+
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.Tips-Details-5-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Tips-Details-5-inner-content {
+  margin: 16px 5px 0 16px;
+}
+
+.best-Approach {
+  margin: 14px 0 14px 0;
+  font-weight: bold;
+}
+.get-consultant-BTN-Div {
+
+  display: flex;
+  justify-content: center;
+  margin: 16px 0 8px 0;
+}
+
+.get-consultant-BTN-Div button {
+
+  background-color: #749402;
+  box-shadow: 5px 1px black;
+  text-align: center;
+  color: #ffffff;
+}
+  
+.get-consultant-BTN-Div button:hover {
+
+  background-color:  #ffffff;
+  box-shadow: 10px 5px black;
+  font-weight: bold;
+      
+}
+
+
+/* ----Tips Details-6--- */
+
+.Tips-Details-6 {
+  width: 96vw;
+  border: 2px solid #5e7700;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 0 0;
+  color: #2c3801;
+}
+
+.Tips-Details-6 h5 {
+
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.Tips-Details-6-inner {
+
+  display: flex;
+
+}
+
+
+/* ----Tips Details-7--- */
+
+.Tips-Details-7 {
+  width: 96vw;
+  border: 2px solid #5e7700;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 0 0;
+  color: #2c3801;
+  padding-bottom: 8px;
+}
+
+.Tips-Details-7 h3 {
+
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* ----Tips Details-8--- */
+
+.Tips-Details-8 {
+  width: 96vw;
+  border: 2px solid #5e7700;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 10px 0;
+  color: #2c3801;
+  padding-bottom: 8px;
+}
+/* -----------------------------Feedback Div---------------------------------------- */
+
+.Feedback-Div {
+
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+}
+
+.Feedback-Div-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: center;
+  height: 100vh;
+}
+
+.Feedback-Div-inner {
+
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: auto;
+  border:#749402 3px solid;
+  justify-content: center;
+  padding: 18px;
+}
+
+.Feedback-Div-inner p {
+  font-size: 24px;
+  text-align: left;
+}
+.feedBack-BTN-Div {
+
+  display: flex;
+  justify-content: center;
+  margin: 16px 0 0 0;
+}
+
+.feedBack-BTN-Div button {
+
+  background-color: #749402;
+  box-shadow: 5px 5px black;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* -------------------------------------------Feedback success-------------------------------- */
+
+.FeedbSuccess-Div {
+
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+
+}
+
+.FeedbSuccess-Div-inner {
+
+  display: flex;
+  flex-direction: column;
+  padding: 180px;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.FeedbSuccess-Div-inner h2 {
+
+  text-align: center;
+  /* font-family: "Protest Strike", sans-serif; */
+  font-family: "Love Light", cursive;
+  font-weight: bold;
+  color:#db053b;
+  font-size: 46px;
+}
+
+.FeedbSuccess-Div-inner h2:hover {
+
+  font-size: 52px;
+  text-shadow: 0 2px 5px #ffffff;
+}
+
+.FeedbSuccess-Div-BTN {
+
+  display: flex;
+  text-align: center;
+
+}
+
+.FeedbSuccess-Div-BTN button {
+
+  background-color: #749402;
+  box-shadow: 4px 4px black;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+.FeedbSuccess-Div-BTN button:hover {
+
+  background-color: #749402;
+  box-shadow: 5px 5px black;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+
+}
+
+
+
+/* ---------------------------------------Signout------------------------------------------------ */
+
+.Signout-Div {
+
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  min-height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+
+}
+
+.Signout-Div h5 {
+
+padding: 180px 0 0 0;
+text-align: center;
+
+}
+
+.Signout-Div h4 {
+
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  color: #d62976;
+  text-shadow: #ffffff 3px 3px;
+  font-weight: bold;
+}
+
+
+/* ----------------------------------------Diet Foods--------------------------------------------------- */
+
+.Diet-foods-Div {
+
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+
+}
+
+.Diet-foods-inner {
+
+  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  height: max-content;
+  padding: 10px;
+}
+
+.Diet-foods-Div h3 {
+  text-align: center;
+  color: #2c3801;
+}
+
+.Diabetes-Capital {
+  display: flex;
+  padding: 5px;
+  border: 2px solid #5e7700;
+  margin-bottom: 8px;
+}
+
+.Diabetes-Capital-content {
+  
+  padding: 14px 0 0 10px;
+  color: #2c3801;  
+}
+
+.Diabetes-Capital-content li {
+  padding: 0 0 5px 0;
+}
+
+.Diabetes-Capital h4 {
+  text-align: center;
+  color: #2c3801;
+}
+.Diabetes-Capital-Img {
+  display: flex;
+  align-items: center;
+}
+.Diabetes-Capital-Img >img {
+  border-radius: 20px;
+}
+
+.Diet-foods-consequences {
+  color: #2c3801;
+  border: 2px solid #5e7700;
+  margin-bottom: 8px;
+}
+
+.Diet-foods-consequences h3 {
+
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+.Diet-foods-consequences p {
+
+  text-align: left;
+  padding: 0 10px 5px 10px;
+  margin-bottom:0;
+  text-indent: 20px;
+}
+
+.process-vs-natural-Div {
+
+  color: #2c3801;
+  padding: 5px;
+  border: 2px solid #5e7700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.process-vs-natural-Div img {
+
+  border-radius: 20px;
+}
+.process-vs-natural-Div h2, p {
+
+  text-align: center;
+}
+
+.process-vs-natural-contents {
+
+  display: flex;
+}
+
+.processed-food {
+ 
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 8px;
+  width: 50vw;
+  border-right: 1px solid #5e7700;
+}
+
+.processed-food span {
+  text-decoration: underline overline #2c3801;
+  text-align: center;
+}
+.natural-food {
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 8px;
+  width: 50vw;
+  border-left: 1px solid #5e7700;
+}
+
+.natural-food span {
+  text-decoration: underline overline #2c3801;
+  text-align: center;
+}
+
+.Traditional-Indian-Diet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #5e7700;
+  color: #2c3801;
+  padding: 5px;
+  margin-bottom: 8px;
+}
+
+.Traditional-Indian-Diet h2 {
+
+  text-align: center;
+}
+
+.Traditional-Indian-Diet-Image {
+
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.Traditional-Indian-Diet p {
+
+  color: #db053b;
+  padding-top: 8px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.How-can-Fix {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #5e7700;
+  color: #2c3801;
+  padding: 5px;
+  margin-bottom: 8px;
+}
+
+.How-can-Fix-foods-imgs {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Foods-to-Include {
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: 2px solid #5e7700;
+  color:#2c3801;
+  padding: 5px;
+  margin-bottom: 8px;
+  
+}
+
+.Foods-to-Include h2 {
+
+  text-align: center;
+
+}
+
+.StartHere {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  border: 2px solid #5e7700;
+  color:#2c3801;
+  padding: 5px;
+}
+
+.StartHere h2 {
+  text-align: center;
+}
+
+.StartHere h2 span {
+  text-align: center;
+  display: block;
+}
+
+.StartHere span, .StartHere p {
+
+  text-align: left;
+  padding: 0 8px 0 8px;
+}
+
+.distracted p {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Protest Revolution", sans-serif;
+  color: #db053b;
+  margin-bottom: 0;
+}
+
+.FoodtoHomeBtn-Div {
+  display: block;
+  text-align: center;
+  margin: 8px 0 8px 0;
  
 }
 
-/* .productCard img {
+.FoodtoHomeBtn-Div Button {
+  align-items: center;
+  box-shadow: 2px 2px #000;
+}
 
- width: 80px;
- height: 80px;
+.FoodtoHomeBtn-Div Button:hover {
+  align-items: center;
+  box-shadow: 5px 5px #000;
+  color:#2c3801;
+  font-weight: bold;
+}
 
-} */
+.FoodtoHomeBtn-Div Button img {
+  width: 20px;
+}
 
 
-
-
-/* font-family: "Anta", sans-serif;
-font-family: "Pacifico", cursive;
-font-family: "Fira Sans", sans-serif;
-font-family: "Ubuntu", sans-serif;
-font-family: "Protest Strike", sans-serif;
-font-family: "Protest Revolution", sans-serif;
-font-family: "Protest Riot", sans-serif; 
-font-family: "Love Light", cursive;*/

@@ -1,0 +1,1902 @@
+/* ----------------page responsive--- */
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  /* -----------bill payment */
+  .Bill-Div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .Bill-Div-Table Table {
+    background-color: #fff;
+  }
+  .Bill-Div-Inner {
+    padding: 8px 0 8px 0;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 575px) {
+  /* ----menu nav----- */
+  .headerMenu {
+    display: none;
+    padding-left: 8px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .ant-drawer-body {
+    padding-left: 5px;
+  }
+  .ant-drawer-body ul {
+    width: 60%;
+  }
+  /* ------footer------- */
+  .Footer-socialMedia span {
+    font-size: 20px;
+    column-gap: 8px;
+  }
+
+  .Footer-city-Branches p,
+  .copywright,
+  .Footer-details {
+    font-size: 8px;
+  }
+  .menuIcon {
+    padding-top: 12px;
+  }
+
+  /* ---------start-------- */
+
+  .home-girl {
+    display: flex;
+    justify-content: space-around;
+  }
+  .home-girl > img {
+    height: 400px;
+  }
+  .rectangle {
+    width: 80vw;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  .welcome {
+    font-size: 20px;
+  }
+  .wana-get {
+    width: 80vw;
+    text-align: center;
+  }
+  .wana-get h1 {
+    margin-bottom: 12px;
+    padding-bottom: 5px;
+    box-shadow: 0 10px 10px black;
+  }
+  .getDiet {
+    padding-top: 16px;
+    color: #d62976;
+    font-size: 26px;
+  }
+  .youR-right {
+    font-size: 20px;
+  }
+  .didYou {
+    margin-bottom: 8px;
+  }
+  .simple {
+    font-size: 22px;
+  }
+  .simple,
+  .belive {
+    margin-bottom: 5px;
+  }
+  .GET-BTNDIV {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .GET-BTNDIV > button {
+    transform: skew(-15deg);
+  }
+
+  /* -----------------login-- */
+  .Innerlog-Div {
+    font-size: 22px;
+  }
+  .loginForm {
+    display: flex;
+    justify-content: center;
+  }
+  .loginForm > .ant-col > .ant-form {
+    width: 50vw;
+    margin: 0% auto;
+  }
+  .logImgs > img {
+    height: 200px;
+  }
+
+  /* -----------bill payment */
+  .Bill-Div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 4px;
+  }
+  .Bill-Div-Table Table {
+    background-color: #fff;
+  }
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    border-width: 0.5px;
+  }
+  .ant-table-wrapper .ant-table-cell,
+  .ant-table-wrapper .ant-table-thead > tr > th,
+  .ant-table-wrapper .ant-table-tbody > tr > th,
+  .ant-table-wrapper .ant-table-tbody > tr > td,
+  .ant-table-wrapper tfoot > tr > th,
+  .ant-table-wrapper tfoot > tr > td {
+    padding: 2px !important;
+  }
+
+  /* ------------Bill success cash--- */
+  .Bill-Success-Cash-inner > img {
+    width: 240px;
+  }
+
+  /* ------------Bill success card--- */
+  .BillSuccess-Card-inner img {
+    width: 260px;
+  }
+  /* -------------signout success---- */
+  .Signout-Div h5 {
+    font-size: 18px;
+  }
+  .Signout-Div h4 {
+    font-size: 18px;
+  }
+  .Signout-Div img {
+    width: 300px;
+  }
+  /* --------about us--------- */
+  .city-Branches {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /*----------about us-------*/
+  .Aboutus-Img img {
+    height: 410px;
+  }
+  .Aboutus-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Aboutus-div {
+    width: 100%;
+    justify-content: space-around;
+    min-height: 80vh;
+  }
+  /* ---------fit chart------- */
+  .centerImageDiv > img {
+    display: none;
+  }
+  /* --------diet tips------- */
+  .Tips-Details-1-inner {
+    align-items: center;
+  }
+  .Tips-Details-1 img {
+    margin: 0 0 5px 5px;
+    height: 160px;
+    width: 100px;
+    border-radius: 20px;
+  }
+  .Tips-Details-2-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Tips-Details-3-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Tips-Details-3 p {
+    text-align: left;
+  }
+  .Tips-Details-4-inner {
+    flex-direction: column;
+  }
+  .Tips-Details-4-IMG-Div {
+    display: flex;
+    justify-content: center;
+  }
+  .Tips-Details-4-IMG-Div > img {
+    width: 160px;
+  }
+  .Tips-Details-5-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Tips-Details-5 img {
+    width: 300px;
+    padding: 0px 0 8px 0px;
+    border-radius: 20px;
+    margin-left: 8px;
+  }
+  .Tips-Details-6-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Tips-Details-6-inner-Img {
+    display: flex;
+    justify-content: center;
+  }
+  .Tips-Details-6-inner-Img > img {
+    width: 260px;
+  }
+  /* --------------diet foods--------- */
+  .Diabetes-Capital {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .process-vs-natural-Div > img {
+    width: 260px;
+  }
+  .Diabetes-Capital-Img > img {
+    width: 260px;
+    height: 130px;
+  }
+  .How-can-Fix-foods-imgs > img {
+    width: 50px;
+  }
+  .Traditional-Indian-Diet-Image img {
+    width: 140px;
+  }
+  /* --------------diet foods--------- */
+  .Diabetes-Capital {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .process-vs-natural-Div > img {
+    width: 320px;
+  }
+  .Diabetes-Capital-Img > img {
+    width: 320px;
+    height: 180px;
+  }
+  .How-can-Fix-foods-imgs > img {
+    width: 80px;
+  }
+  .Traditional-Indian-Diet-Image img {
+    width: 180px;
+  }
+  /* ----------diet benifits------- */
+  .Benifit-Detail-123 {
+    width: 100vw;
+    justify-content: space-between;
+  }
+  .Benifit-Detail-1 {
+    justify-content: center;
+  }
+  .Benifit-Img-1 > img {
+    width: 260px;
+  }
+  .Benifit-Detail-2 {
+    justify-content: center;
+  }
+  .Benifit-Detail-2 > h3 {
+    padding: 10px;
+  }
+  .Benifit-Img-2 > img {
+    width: 300px;
+  }
+  .Benifit-Detail-3 {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .Benifit-Img-3 {
+    padding: 8px;
+  }
+
+  .Benifit-Detail-3 img {
+    width: 200px;
+  }
+  .Benifit-Detail-123 {
+    flex-direction: column;
+  }
+  .Benifit-Detail-4 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-4 > img {
+    width: 330px;
+  }
+  .Benifit-Detail-5 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-5 > img {
+    width: 270px;
+  }
+  .Benifit-Detail-6 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Detail-7 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-7 > img {
+    height: 250px;
+  }
+  .Benifit-Detail-8 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-7 > img {
+    height: 250px;
+  }
+  .Benifit-Img-8 > img {
+    height: 250px;
+  }
+  /* --------------cart --------------------------- */
+  .CARD {
+    flex-direction: column;
+  }
+  .cart-inner-Div {
+    flex-direction: column;
+  }
+  .cart-inner-Img img {
+    width: 100px;
+    height: 100px;
+  }
+  .cart-inner-desc {
+    width: 340px;
+  }
+
+  .cart-inner-Select-Btns {
+    display: flex;
+    text-align: center;
+  }
+
+  .cart-inner-prices {
+    width: 140px;
+    padding-right: 10px;
+  }
+
+  .cart-inner-prices p {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .Cart-Remove-Btn {
+    text-align: end;
+    padding-right: 20px;
+  }
+  .Cart-Remove-Btn {
+    align-self: center;
+    padding: 2px 8px;
+    color: #db053b;
+  }
+  /* ------------home-------------- */
+  .HomeDiv {
+    min-height: 85vh;
+  }
+  .Fat-fit img {
+    height: 550px;
+    margin: 10px;
+  }
+  .homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .delicious-Box {
+    flex-direction: column;
+  }
+  .imageContainer {
+    width: auto;
+  }
+  .imageContainer img {
+    margin-top: 60px;
+    width: 300px;
+  }
+  .dietPlate {
+    font-family: "Pacifico", cursive;
+    height: 6vh;
+    font-size: 32px;
+    padding: 60px 0 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c3801;
+  }
+  .dietPlate img {
+    width: 36px;
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* ----menu nav----- */
+  .headerMenu {
+    display: none;
+    padding-left: 8px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .MenuOutlined {
+    padding-top: 10px;
+  }
+  .ant-drawer-body {
+    padding-left: 5px;
+  }
+  .ant-drawer-body ul {
+    width: 44%;
+  }
+  /* ------footer------- */
+  .Footer-socialMedia span {
+    font-size: 20px;
+    column-gap: 8px;
+  }
+  .Footer-city-Branches p,
+  .copywright,
+  .Footer-details {
+    font-size: 8px;
+  }
+
+  /* ---------start-------- */
+  .wana-get h1 {
+    font-size: 28px;
+    padding-bottom: 5px;
+    box-shadow: 0 10px 10px black;
+  }
+
+  .home-girl > img {
+    height: 380px;
+  }
+  .rectangle {
+    width: 80vw;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wana-get {
+    width: 80vw;
+    text-align: center;
+    padding-top: 14px;
+  }
+  .getDiet {
+    padding-top: 16px;
+  }
+  .simple,
+  .belive {
+    margin-bottom: 5px;
+  }
+  .GET-BTNDIV {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  /* -----------------login-- */
+  .Innerlog-Div {
+    font-size: 22px;
+  }
+  .loginForm {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logImgs > img {
+    height: 300px;
+  }
+  /* -----------bill payment */
+  .Bill-Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bill-Div-Table Table {
+    background-color: #fff;
+  }
+  .Bill-Div-Inner {
+    padding: 28px;
+  }
+  /* ------------Bill success cash--- */
+  .Bill-Success-Cash-inner > img {
+    width: 300px;
+  }
+
+  /* ------------Bill success card--- */
+  .BillSuccess-Card-inner img {
+    width: 340px;
+  }
+  /* -------------signout success---- */
+  .Signout-Div h5 {
+    font-size: 20px;
+  }
+  .Signout-Div h4 {
+    font-size: 20px;
+  }
+  .Signout-Div img {
+    width: 280px;
+  }
+  /* --------about us--------- */
+  .Aboutus-div {
+    justify-content: space-around;
+  }
+  .Aboutus-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .city-Branches {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Aboutus-Img img {
+    height: 410px;
+  }
+  .Aboutus-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Aboutus-div {
+    width: 100%;
+    justify-content: space-around;
+    min-height: 80vh;
+  }
+  /* ---------fit chart------- */
+  .centerImageDiv > img {
+    display: none;
+  }
+  /* --------diet tips------- */
+  .Tips-Details-1 img {
+    margin: 0 0 5px 5px;
+    width: 160px;
+    border-radius: 20px;
+  }
+  .Tips-Details-2-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Tips-Details-3-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Tips-Details-3 p {
+    text-align: left;
+  }
+  .Tips-Details-4-inner {
+    flex-direction: column;
+  }
+  .Tips-Details-4-IMG-Div {
+    display: flex;
+    justify-content: center;
+  }
+  .Tips-Details-4-IMG-Div > img {
+    width: 250px;
+  }
+  .Tips-Details-5-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Benifit-Detail-5 > img {
+    width: 300px;
+  }
+  .Tips-Details-6-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Tips-Details-6 > img {
+    width: 500px;
+    margin: 36px 8px 0 0;
+  }
+  .Tips-Details-5 img {
+    width: 330px;
+    padding: 0px 0 8px 0px;
+    border-radius: 20px;
+    margin-left: 8px;
+  }
+
+  /* --------------diet foods--------- */
+  .Diabetes-Capital {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .process-vs-natural-Div > img {
+    width: 320px;
+  }
+  .Diabetes-Capital-Img > img {
+    width: 320px;
+    height: 180px;
+  }
+  .How-can-Fix-foods-imgs > img {
+    width: 80px;
+  }
+  .Traditional-Indian-Diet-Image img {
+    width: 180px;
+  }
+  /* ----------diet benifits------- */
+  .Benifit-Detail-123 {
+    width: 100vw;
+    justify-content: space-between;
+  }
+  .Benifit-Detail-1 {
+    justify-content: center;
+  }
+  .Benifit-Img-1 > img {
+    width: 260px;
+  }
+  .Benifit-Detail-2 {
+    justify-content: center;
+  }
+  .Benifit-Img-2 > img {
+    width: 400px;
+  }
+  .Benifit-Detail-3 {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .Benifit-Img-3 {
+    padding: 8px;
+  }
+
+  .Benifit-Detail-3 img {
+    width: 200px;
+  }
+  .Benifit-Detail-123 {
+    flex-direction: column;
+  }
+  .Benifit-Detail-4 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-4 > img {
+    width: 430px;
+  }
+  .Benifit-Img-5 > img {
+    width: 300px;
+  }
+  .Benifit-Detail-5 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Detail-6 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Detail-7 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-7 > img {
+    height: 300px;
+  }
+  .Benifit-Detail-8 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-8 > img {
+    height: 290px;
+  }
+  /* --------------cart --------------------------- */
+  .CARD {
+    flex-direction: column;
+  }
+  .cart-inner-Div {
+    flex-direction: column;
+  }
+  .cart-inner-Img img {
+    width: 100px;
+    height: 100px;
+  }
+  .cart-inner-desc {
+    width: 420px;
+  }
+
+  .cart-inner-Select-Btns {
+    display: flex;
+    text-align: center;
+  }
+
+  .cart-inner-prices {
+    width: 140px;
+    padding-right: 10px;
+  }
+
+  .cart-inner-prices p {
+    font-weight: bold;
+    margin-bottom: 0;
+    /* text-align: right; */
+  }
+
+  .Cart-Remove-Btn {
+    text-align: end;
+    padding-right: 20px;
+  }
+  .Cart-Remove-Btn {
+    align-self: center;
+    padding: 2px 8px;
+    color: #db053b;
+  }
+  .imageContainer img {
+    margin-top: 60px;
+    width: 340px;
+  }
+  /* ------------home-------------- */
+  .HomeDiv {
+    min-height: 85vh;
+  }
+  .Fat-fit img {
+    height: 650px;
+    margin: 10px;
+  }
+  .homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .delicious-Box {
+    flex-direction: column;
+  }
+  .imageContainer {
+    width: auto;
+  }
+  .imageContainer img {
+    margin-top: 60px;
+    width: 340px;
+  }
+  .dietPlate {
+    font-family: "Pacifico", cursive;
+    height: 6vh;
+    font-size: 32px;
+    padding: 60px 0 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c3801;
+  }
+  .dietPlate img {
+    width: 36px;
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* ----menu nav----- */
+  .headerMenu {
+    display: none;
+    padding-left: 8px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .MenuOutlined {
+    padding-top: 10px;
+  }
+  .ant-drawer-body {
+    padding-left: 5px;
+  }
+  .ant-drawer-body ul {
+    width: 44%;
+  }
+  /* ----menu nav----- */
+  .headerMenu > .menu {
+    height: 65px;
+    display: block;
+  }
+  .ant-menu-horizontal .ant-menu-item {
+    display: inline-flex;
+    padding-inline: 12px;
+  }
+  .headerMenu > .menu > li > span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  /* ------footer------- */
+  .Footer-socialMedia span {
+    font-size: 20px;
+    column-gap: 8px;
+  }
+  .Footer-city-Branches p,
+  .copywright,
+  .Footer-details {
+    font-size: 10px;
+  }
+
+  /* ---------start-------- */
+  .wana-get h1 {
+    font-size: 34px;
+    box-shadow: 0 10px 10px black;
+  }
+
+  .home-girl > img {
+    height: 480px;
+  }
+  .rectangle {
+    width: 80vw;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wana-get {
+    width: 80vw;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .getDiet {
+    padding-top: 16px;
+  }
+  .simple,
+  .belive {
+    margin-bottom: 5px;
+  }
+  .GET-BTNDIV {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  /* -----------------login-- */
+  .Innerlog-Div {
+    font-size: 22px;
+  }
+  .loginForm {
+    display: flex;
+    justify-content: center;
+  }
+  .loginForm > .ant-col > .ant-form {
+    width: 50vw;
+    margin: 0% auto;
+  }
+  .logImgs > img {
+    height: 400px;
+  }
+  /* -----------bill payment */
+  .Bill-Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bill-Div-Table Table {
+    max-width: 100%;
+    background-color: #fff;
+  }
+  .Bill-Div-Inner {
+    padding: 28px;
+  }
+  /* ------------Bill success card--- */
+  .BillSuccess-Card-inner img {
+    width: 440px;
+  }
+  /* -------------signout success---- */
+  .Signout-Div h5 {
+    font-size: 22px;
+  }
+  .Signout-Div h4 {
+    font-size: 22px;
+  }
+  .Signout-Div img {
+    width: 280px;
+  }
+  /* --------about us--------- */
+  .city-Branches {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /*----------about us-------*/
+  .Aboutus-Img img {
+    height: 410px;
+  }
+  .Aboutus-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Aboutus-div {
+    width: 100%;
+    justify-content: space-around;
+    min-height: 80vh;
+  }
+  /* --------diet tips------- */
+  .Tips-Details-1 img {
+    margin: 0 0 5px 5px;
+    width: 160px;
+    border-radius: 20px;
+  }
+  .Tips-Details-2-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Tips-Details-3-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Tips-Details-3 p {
+    text-align: left;
+  }
+  .Tips-Details-4-inner {
+    flex-direction: column;
+  }
+  .Tips-Details-4-IMG-Div {
+    display: flex;
+    justify-content: center;
+  }
+  .Tips-Details-4-IMG-Div > img {
+    width: 250px;
+  }
+  .Tips-Details-5-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Benifit-Detail-5 > img {
+    width: 370px;
+  }
+  .Tips-Details-6-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Tips-Details-6 > img {
+    width: 500px;
+    margin: 36px 8px 0 0;
+  }
+  .Tips-Details-6-inner-Img > img {
+    width: 400px;
+  }
+  .Tips-Details-5 img {
+    width: 380px;
+    padding: 0px 0 8px 0px;
+    border-radius: 20px;
+    margin-left: 10px;
+  }
+  /* --------------diet foods--------- */
+  .process-vs-natural-Div > img {
+    width: 400px;
+  }
+  .Diabetes-Capital-Img > img {
+    width: 240px;
+    height: 180px;
+  }
+  .How-can-Fix-foods-imgs > img {
+    width: 120px;
+  }
+  .Traditional-Indian-Diet-Image img {
+    width: 210px;
+  }
+  /* ----------diet benifits------- */
+  .Benifit-Detail-123 {
+    width: 100vw;
+    justify-content: space-between;
+  }
+  .Benifit-Detail-1 {
+    justify-content: center;
+  }
+  .Benifit-Img-1 > img {
+    width: 260px;
+  }
+  .Benifit-Detail-2 {
+    justify-content: center;
+  }
+  .Benifit-Img-2 > img {
+    width: 400px;
+  }
+  .Benifit-Detail-3 {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .Benifit-Img-3 {
+    padding: 8px;
+  }
+
+  .Benifit-Detail-3 img {
+    width: 200px;
+  }
+  .Benifit-Detail-123 {
+    flex-direction: column;
+  }
+  .Benifit-Detail-4 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-4 > img {
+    width: 650px;
+  }
+  .Benifit-Detail-5 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-5 > img {
+    width: 380px;
+  }
+  .Benifit-Detail-7 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-7 > img {
+    height: 330px;
+  }
+  .Benifit-Detail-8 {
+    flex-wrap: wrap;
+  }
+  .Benifit-Img-8 > img {
+    height: 320px;
+  }
+  /* --------------cart --------------------------- */
+  .cart-inner-Img img {
+    width: 80px;
+    height: 80px;
+  }
+  .cart-inner-desc {
+    width: 200px;
+    text-wrap: wrap;
+  }
+
+  .cart-inner-Select-Btns {
+    text-align: center;
+    width: 200px;
+  }
+
+  .cart-inner-prices {
+    width: 160px;
+    padding-right: 6px;
+  }
+
+  .cart-inner-prices p {
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .Cart-Remove-Btn {
+    text-align: center;
+    padding-right: 20px;
+  }
+  .Cart-Remove-Btn {
+    align-self: center;
+    padding: 2px 8px;
+    color: #db053b;
+  }
+  /* ------------home-------------- */
+  .HomeDiv {
+    min-height: 85vh;
+  }
+  .Fat-fit img {
+    height: 650px;
+    margin: 10px;
+  }
+  .homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .delicious-Box {
+    flex-direction: column;
+  }
+  .imageContainer {
+    width: auto;
+  }
+  .imageContainer img {
+    margin-top: 60px;
+    width: 340px;
+  }
+  .dietPlate {
+    font-family: "Pacifico", cursive;
+    height: 6vh;
+    font-size: 32px;
+    padding: 60px 0 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c3801;
+  }
+  .dietPlate img {
+    width: 36px;
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* ----menu nav----- */
+  .headerMenu {
+    display: none;
+    padding-left: 8px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .MenuOutlined {
+    padding-top: 10px;
+  }
+  .ant-drawer-body {
+    padding-left: 5px;
+  }
+  .ant-drawer-body ul {
+    width: 36%;
+  }
+  /* ----menu nav----- */
+  .headerMenu > .menu {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  /* ------footer------- */
+  .Footer-socialMedia span {
+    font-size: 30px;
+    column-gap: 10px;
+  }
+  .Footer-city-Branches p,
+  .copywright,
+  .Footer-details {
+    font-size: 12px;
+  }
+  .Footer-city-Branches span {
+    font-size: 10px;
+  }
+  /* ---------start-------- */
+  .wana-get {
+    padding-top: 70px;
+  }
+  .wana-get h1 {
+    font-size: none;
+    box-shadow: 0 10px 10px black;
+    padding-bottom: 5px;
+  }
+  .welcome {
+    text-align: center;
+  }
+  .simple {
+    text-align: center;
+  }
+  .home-girl > img {
+    height: 750px;
+  }
+  .home-girl {
+    display: flex;
+    align-items: end;
+  }
+  /* -----------------login-- */
+  .Innerlog-Div {
+    font-size: 24px;
+  }
+  .loginForm {
+    display: flex;
+    justify-content: center;
+  }
+  .logImgs > img {
+    height: 450px;
+  }
+  /* -----------bill payment */
+  .Bill-Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bill-Div-Table Table {
+    max-width: 100%;
+    background-color: #fff;
+  }
+  .Bill-Div-Inner {
+    width: 70vw;
+    padding: 28px;
+  }
+  /* -------------signout success---- */
+  .Signout-Div h5 {
+    font-size: 26px;
+  }
+  .Signout-Div h4 {
+    font-size: 26px;
+  }
+  .Signout-Div img {
+    width: 350px;
+  }
+  /* --------about us--------- */
+  .city-Branches {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Aboutus-Img img {
+    height: 540px;
+  }
+  /* --------routers bar----- */
+  .Aboutus-div {
+    width: 100%;
+    justify-content: space-around;
+    min-height: 80vh;
+  }
+  /* ------------diet tips-------- */
+  .Tips-Details-1 img {
+    margin: 0 0 5px 30px;
+    width: 300px;
+    border-radius: 20px;
+  }
+  .Tips-Details-4-IMG-Div > img {
+    width: 400px;
+  }
+
+  .Tips-Details-5 img {
+    width: 380px;
+    padding: 0px 0 8px 0px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+  .Tips-Details-6-inner-Img {
+    display: flex;
+    align-items: center;
+  }
+  .Tips-Details-6-inner-Img > img {
+    width: 400px;
+  }
+  /* --------------diet foods--------- */
+  .process-vs-natural-Div > img {
+    width: 460px;
+  }
+  .Diabetes-Capital-Img > img {
+    width: 280px;
+    height: 180px;
+  }
+  .How-can-Fix-foods-imgs > img {
+    width: 140px;
+  }
+  .Traditional-Indian-Diet-Image img {
+    width: 280px;
+  }
+  /* ----------diet benifits------- */
+  .Benifit-Detail-123 {
+    width: 100vw;
+    justify-content: space-between;
+  }
+  .Benifit-Detail-1 {
+    justify-content: center;
+  }
+  .Benifit-Img-1 > img {
+    width: 230px;
+  }
+  .Benifit-Detail-2 {
+    justify-content: center;
+  }
+  .Benifit-Detail-2 img {
+    padding: 10px;
+    width: 300px;
+  }
+  .Benifit-Detail-3 {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .Benifit-Img-3 {
+    padding: 8px;
+  }
+
+  .Benifit-Detail-3 img {
+    width: 240px;
+  }
+  .Benifit-Img-4 > img {
+    width: 700px;
+  }
+  .Benifit-Img-5 > img {
+    width: 380px;
+  }
+  .Benifit-Img-7 > img {
+    height: 350px;
+  }
+  .Benifit-Img-8 > img {
+    height: 350px;
+  }
+  /* --------------cart --------------------------- */
+  .cart-inner-Img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .cart-inner-desc {
+    width: 300px;
+  }
+
+  .cart-inner-Select-Btns {
+    text-align: center;
+    width: 200px;
+  }
+
+  .cart-inner-prices {
+    width: 200px;
+    padding-right: 10px;
+  }
+
+  .cart-inner-prices p {
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .Cart-Remove-Btn {
+    text-align: end;
+    padding-right: 20px;
+  }
+  .Cart-Remove-Btn {
+    align-self: end;
+    padding: 2px 8px;
+    color: #db053b;
+  }
+  /* ------------home-------------- */
+  .HomeDiv {
+    min-height: 85vh;
+  }
+  .Fat-fit img {
+    height: 650px;
+    margin-left: 22px;
+  }
+  .homeContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .details {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dietPlate {
+    font-family: "Pacifico", cursive;
+    height: 6vh;
+    font-size: 26px;
+    padding: 60px 0 10px 0;
+    display: flex;
+    padding-left: 400px;
+    align-items: center;
+    color: #2c3801;
+  }
+  .dietPlate img {
+    width: 40px;
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  .delicious-Box {
+    flex-direction: column;
+  }
+  .imageContainer {
+    width: auto;
+  }
+  .imageContainer img {
+    margin-top: 60px;
+    width: 360px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* ----menu nav----- */
+  .headerMenu > .menu {
+    font-size: 18px;
+    font-size: bold;
+  }
+  .ant-drawer-body {
+    padding-left: 5px;
+  }
+  .ant-drawer-body ul {
+    width: 30%;
+  }
+  /* ----menu nav----- */
+  .headerMenu > .menu {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* ------footer------- */
+  .Footer-socialMedia span {
+    font-size: 36px;
+    column-gap: 12px;
+  }
+  .Footer-city-Branches p,
+  .copywright,
+  .Footer-details {
+    font-size: 14px;
+  }
+  .Footer-city-Branches span {
+    font-size: 10px;
+  }
+
+  /* ---------start-------- */
+  .StartContainer {
+    display: flex;
+    justify-content: right;
+  }
+  .wana-get {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+  }
+  .wana-get h1 {
+    font-size: 36px;
+    box-shadow: 0 10px 10px black;
+    padding-bottom: 5px;
+  }
+  .home-girl > img {
+    height: 700px;
+  }
+  .home-girl {
+    display: flex;
+    align-items: end;
+  }
+  .Diet-BTN {
+    transform: skewX(-15deg);
+  }
+  /* -----------------login-- */
+  .Innerlog-Div {
+    font-size: 24px;
+  }
+  .loginForm {
+    display: flex;
+    justify-content: center;
+  }
+  .loginForm > .ant-col > .ant-form {
+    width: 30vw;
+    margin: 0% auto;
+  }
+  .logImgs > img {
+    height: 500px;
+  }
+  /* -----------bill payment */
+  .Bill-Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bill-Div-Table Table {
+    max-width: 100%;
+    background-color: #fff;
+  }
+  .Bill-Div-Inner {
+    width: 70vw;
+    padding: 30px;
+  }
+  /* -------------signout success---- */
+  .Signout-Div h5 {
+    font-size: 30px;
+  }
+  .Signout-Div h4 {
+    font-size: 30px;
+  }
+  .Signout-Div img {
+    width: 450px;
+  }
+  /* --------about us--------- */
+  .city-Branches {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /*----------about us-------*/
+  .Aboutus-Img img {
+    height: 660px;
+  }
+  /* --------routers bar----- */
+  .Aboutus-div {
+    width: 100%;
+    justify-content: space-around;
+    min-height: 80vh;
+  }
+  /* ------------diet tips-------- */
+  .Tips-Details-4-IMG-Div > img {
+    width: 400px;
+  }
+  .Tips-Details-6 > img {
+    width: 500px;
+    margin: 36px 8px 0 0;
+  }
+  /* --------diet tips------- */
+  .Tips-Details-1 img {
+    margin: 0 0 5px 30px;
+    width: 300px;
+    border-radius: 20px;
+  }
+  .Tips-Details-5 img {
+    width: 380px;
+    padding: 0px 0 8px 0px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+  .Tips-Details-6-inner-Img {
+    display: flex;
+    align-items: center;
+  }
+  .Tips-Details-6-inner-Img > img {
+    width: 500px;
+  }
+  /* --------------diet foods--------- */
+  .process-vs-natural-Div > img {
+    width: 560px;
+  }
+  .Diabetes-Capital-Img > img {
+    width: 360px;
+    height: 220px;
+  }
+  .How-can-Fix-foods-imgs > img {
+    width: 180px;
+  }
+  .Traditional-Indian-Diet-Image img {
+    width: 340px;
+  }
+  /* ----------diet benifits------- */
+  .Benifit-Detail-123 {
+    width: 100vw;
+    justify-content: space-between;
+  }
+  .Benifit-Detail-1 {
+    justify-content: center;
+  }
+  .Benifit-Img-1 > img {
+    width: 240px;
+  }
+  .Benifit-Detail-2 {
+    justify-content: center;
+  }
+  .Benifit-Detail-2 img {
+    padding-left: 20px;
+    width: 300px;
+  }
+  .Benifit-Detail-3 {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .Benifit-Img-3 {
+    padding: 8px;
+  }
+
+  .Benifit-Detail-3 img {
+    width: 280px;
+  }
+  .Benifit-Img-4 > img {
+    width: 700px;
+  }
+  .Benifit-Img-5 > img {
+    width: 400px;
+  }
+  .Benifit-Img-7 > img {
+    height: 380px;
+  }
+  .Benifit-Img-8 > img {
+    height: 400px;
+  }
+  /* --------------cart --------------------------- */
+  .cart-inner-Img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .cart-inner-desc {
+    width: 500px;
+  }
+
+  .cart-inner-Select-Btns {
+    text-align: center;
+    width: 200px;
+  }
+
+  .cart-inner-prices {
+    width: 200px;
+    padding-right: 10px;
+  }
+
+  .cart-inner-prices p {
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .Cart-Remove-Btn {
+    align-self: end;
+    padding: 2px 8px;
+    color: #db053b;
+  }
+  /* ------------home-------------- */
+  .HomeDiv {
+    min-height: 85vh;
+  }
+  .dietPlate {
+    font-family: "Pacifico", cursive;
+    height: 6vh;
+    font-size: 26px;
+    padding: 60px 0 10px 0;
+    display: flex;
+    padding-left: 440px;
+    align-items: center;
+    color: #2c3801;
+  }
+  .Fat-fit > img {
+    height: 700px;
+    margin-left: 22px;
+  }
+  .homeContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .details {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dietPlate img {
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .imageContainer {
+    width: 30vw;
+  }
+  .imageContainer img {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  /* ----menu nav----- */
+  .headerMenu > .menu {
+    font-size: 22px;
+  }
+  /* ------footer------- */
+  .Footer-socialMedia span {
+    font-size: 38px;
+    column-gap: 14px;
+  }
+  .Footer-city-Branches p,
+  .copywright,
+  .Footer-details {
+    font-size: 14px;
+  }
+  /* ---------start-------- */
+  .wana-get {
+    padding-top: 100px;
+  }
+  .wana-get h1 {
+    font-size: 40px;
+    box-shadow: 0 10px 10px black;
+    padding-bottom: 5px;
+  }
+  .simple {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  .welcome {
+    font-size: 30px;
+  }
+  .home-girl > img {
+    height: 700px;
+  }
+  .home-girl {
+    display: flex;
+    align-items: end;
+  }
+  .Diet-BTN {
+    transform: skewX(-15deg);
+  }
+
+  /* -----------------login-- */
+
+  .Innerlog-Div {
+    font-size: 26px;
+  }
+  .loginForm {
+    display: flex;
+    justify-content: center;
+  }
+  .logImgs > img {
+    height: 600px;
+  }
+  /* -----------bill payment */
+  .Bill-Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bill-Div-Table Table {
+    max-width: 100%;
+    background-color: #fff;
+  }
+  .Bill-Div-Inner {
+    width: 70vw;
+    padding: 30px;
+  }
+  /* -------------signout success---- */
+  .Signout-Div h5 {
+    font-size: 30px;
+  }
+  .Signout-Div h4 {
+    font-size: 30px;
+  }
+  .Signout-Div img {
+    width: 600px;
+  }
+  /*----------about us-------*/
+  .Aboutus-Img img {
+    height: 770px;
+  }
+  /* --------routers bar----- */
+  .Aboutus-div {
+    width: 100%;
+    justify-content: space-around;
+  }
+  /* ------------diet tips-------- */
+  .Tips-Details-4-IMG-Div > img {
+    width: 400px;
+  }
+  .Tips-Details-6 > img {
+    width: 500px;
+    margin: 36px 8px 0 0;
+  }
+  /* --------diet tips------- */
+  .Tips-Details-1 img {
+    margin: 0 0 5px 30px;
+    width: 300px;
+    border-radius: 20px;
+  }
+  .Tips-Details-2-inner {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Tips-Details-5 img {
+    width: 380px;
+    padding: 0px 0 8px 0px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+  .Tips-Details-6-inner-Img {
+    display: flex;
+    align-items: center;
+  }
+  .Tips-Details-6-inner-Img > img {
+    width: 600px;
+  }
+  /* --------------diet foods--------- */
+  .Diabetes-Capital-Img > img {
+    height: 250px;
+  }
+  .How-can-Fix-foods-imgs > img {
+    width: 200px;
+  }
+  /* --------------diet foods--------- */
+  .process-vs-natural-Div > img {
+    width: 620px;
+  }
+  .Diabetes-Capital-Img > img {
+    width: 460px;
+    height: 240px;
+  }
+  .How-can-Fix-foods-imgs > img {
+    width: 200px;
+  }
+  .Traditional-Indian-Diet-Image img {
+    width: 400px;
+  }
+  /* ----------diet benifits------- */
+  .Benifit-Detail-123 {
+    width: 100vw;
+    justify-content: space-between;
+  }
+  .Benifit-Detail-1 {
+    justify-content: center;
+  }
+  .Benifit-Img-1 > img {
+    width: 300px;
+  }
+  .Benifit-Detail-2 {
+    justify-content: center;
+  }
+  .Benifit-Detail-2 img {
+    padding-left: 20px;
+    width: 300px;
+  }
+  .Benifit-Detail-3 {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .Benifit-Img-3 {
+    padding: 8px;
+  }
+
+  .Benifit-Detail-3 img {
+    width: 320px;
+  }
+  .Benifit-Img-4 > img {
+    width: 700px;
+  }
+  .Benifit-Img-5 > img {
+    width: 400px;
+  }
+  .Benifit-Img-7 > img {
+    height: 380px;
+  }
+  .Benifit-Img-8 > img {
+    height: 400px;
+  }
+  /* --------------cart --------------------------- */
+  .cart-inner-Img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .cart-inner-desc {
+    width: 500px;
+  }
+
+  .cart-inner-Select-Btns {
+    text-align: center;
+    width: 200px;
+  }
+
+  .cart-inner-prices {
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cart-inner-prices p {
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .Cart-Remove-Btn {
+    align-self: end;
+    padding: 2px 8px;
+    color: #db053b;
+  }
+  /* ------------home-------------- */
+  .HomeDiv {
+    min-height: 85vh;
+  }
+  .dietPlate {
+    font-family: "Pacifico", cursive;
+    height: 6vh;
+    font-size: 26px;
+    padding: 40px 0 10px 0;
+    display: flex;
+    padding-left: 460px;
+    align-items: center;
+    color: #2c3801;
+  }
+  .Fat-fit img {
+    height: 730px;
+    margin-left: 22px;
+  }
+  .homeContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .details {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dietPlate img {
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .imageContainer {
+    width: 33vw;
+  }
+  .imageContainer > img {
+    margin-top: 60px;
+  }
+}
