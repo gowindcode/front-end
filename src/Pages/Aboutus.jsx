@@ -87,14 +87,14 @@ function Aboutus() {
         <div className="Aboutus-details">
           <p className="Aboutus-AboutUs">About Us</p>
           <p className="weAre">
-            We are a Leading <b>Diet Advisory</b> and <b>Diet Consultant</b>{" "}
+            We are a Leading <b>Diet Advisory</b> and <b>Diet Consultant</b>
             service provider for men and women since 2018... Our exclusive diet
             plans gets you 100% fit and healthy. More than 60K happy customers
             fully satisfied on our service and products.
           </p>
 
           <span className="JoinUs">
-            Join with us today and make your Body as like your Dream...
+            Join with us today and make your "Body" as like your "Dream"...
           </span>
 
           <p className="Head-Office">

@@ -1,7 +1,8 @@
 import React from "react";
-import { Table } from "antd";
+import { Table, Button } from "antd";
 import HeightWomen from "../assets/FitChart/height-women.png";
 import Heightmen from "../assets/FitChart/men-height.png";
+import { useNavigate } from "react-router-dom";
 
 const womenColumns = [
   {
@@ -269,6 +270,11 @@ const menData = [
 ];
 
 function FitChart() {
+  //navigate to products
+  const navigate  = useNavigate();
+  const backToProductsFromFit = () => {
+    navigate('/all-products')
+  }
   return (
     <div className="ChartDiv">
       <div className="top-peraDiv">
@@ -280,7 +286,7 @@ function FitChart() {
       <div className="InnerChart">
         <div className="leftView">
           <div className="TableUpLeftctn">
-            An approximate height-weight ratio chart for adult women
+            An approximate Height-Weight ratio chart for women
           </div>
           <Table
             rowClassName="custom-row1"
@@ -295,7 +301,7 @@ function FitChart() {
         </div>
         <div className="Rightview">
           <div className="TableUpRightctn">
-            An approximate Height And Weight Chart For (adult) Men.
+            An approximate Height-Weight chart for (adult) men.
           </div>
           <Table
             rowClassName="custom-row2"
@@ -340,7 +346,7 @@ function FitChart() {
           to consult with your paediatrician or family physician.
         </p>
         <div className="faqs-lists">
-          <span>FAQs</span>
+          <span> <u>FAQs</u> </span>
 
           <span>Q. What Is The Ideal Weight In Kg?</span>
           <span>
@@ -361,6 +367,9 @@ function FitChart() {
             development, and overall health, but it should be assessed in
             conjunction with other factors and under medical supervision.
           </span>
+        </div>
+        <div className="fitToProductBtn-Div">
+        <Button onClick={backToProductsFromFit}>Back to Products</Button>
         </div>
       </div>
     </div>

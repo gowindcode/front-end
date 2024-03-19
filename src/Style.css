@@ -1,21 +1,10 @@
 /* ----------------page responsive--- */
-@media screen and (min-width: 360px) and (max-width: 379px) {
-  /* -----------bill payment */
-  .Bill-Div {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
-  .Bill-Div-Table Table {
-    background-color: #fff;
-  }
-  .Bill-Div-Inner {
-    padding: 8px 0 8px 0;
-  }
-}
 
-@media screen and (min-width: 380px) and (max-width: 575px) {
+@media screen and (min-width: 360px) and (max-width: 575px) {
   /* ----menu nav----- */
+  .ant-drawer-content-wrapper .ant-drawer-content{
+    width: 230px; /* Adjusted width for smaller screens */
+}
   .headerMenu {
     display: none;
     padding-left: 8px;
@@ -23,13 +12,32 @@
   .menu {
     display: flex;
     flex-direction: column;
+    top: 20px;
   }
   .ant-drawer-body {
     padding-left: 5px;
+    width: 54vw;
   }
-  .ant-drawer-body ul {
-    width: 60%;
+  .ant-drawer .ant-drawer-body {
+    width: 54vw;
   }
+  .ant-drawer .ant-drawer-content {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background: none; /* Remove background */
+    pointer-events: auto;
+}
+.ant-menu-light.ant-menu-root.ant-menu-inline {
+  width: 50%;
+}
+.ant-drawer-content-wrapper {
+  width: 50vw;
+}
+.logo {
+  width: 35px;
+  margin-bottom: 0px;
+}
   /* ------footer------- */
   .Footer-socialMedia span {
     font-size: 20px;
@@ -46,17 +54,19 @@
   }
 
   /* ---------start-------- */
-
+  .StartContainer {
+    min-height: 100vh;
+  }
   .home-girl {
     display: flex;
-    justify-content: space-around;
+    align-items: end;
   }
   .home-girl > img {
-    height: 400px;
+    height: 260px;
+    margin-top: 20px;
   }
   .rectangle {
     width: 80vw;
-    height: auto;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -85,6 +95,13 @@
   }
   .didYou {
     margin-bottom: 8px;
+    font-size: 8px;
+  }
+  .didYou, .belive {
+    font-size: 14px;
+  }
+  .belive >span {
+    font-size: 14px;
   }
   .simple {
     font-size: 22px;
@@ -244,36 +261,19 @@
     justify-content: center;
   }
   .process-vs-natural-Div > img {
-    width: 260px;
+    width: 200px;
   }
   .Diabetes-Capital-Img > img {
-    width: 260px;
-    height: 130px;
+    width: 220px;
+    height: 110px;
   }
   .How-can-Fix-foods-imgs > img {
-    width: 50px;
+    width: 38px;
   }
   .Traditional-Indian-Diet-Image img {
-    width: 140px;
+    width: 110px;
   }
-  /* --------------diet foods--------- */
-  .Diabetes-Capital {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .process-vs-natural-Div > img {
-    width: 320px;
-  }
-  .Diabetes-Capital-Img > img {
-    width: 320px;
-    height: 180px;
-  }
-  .How-can-Fix-foods-imgs > img {
-    width: 80px;
-  }
-  .Traditional-Indian-Diet-Image img {
-    width: 180px;
-  }
+
   /* ----------diet benifits------- */
   .Benifit-Detail-123 {
     width: 100vw;
@@ -327,13 +327,10 @@
     flex-wrap: wrap;
   }
   .Benifit-Img-7 > img {
-    height: 250px;
+    height: 220px;
   }
   .Benifit-Detail-8 {
     flex-wrap: wrap;
-  }
-  .Benifit-Img-7 > img {
-    height: 250px;
   }
   .Benifit-Img-8 > img {
     height: 250px;
@@ -422,6 +419,11 @@
     margin-right: 6px;
     margin-left: 6px;
   }
+
+  /* -----------------feedback------------ */
+  .Feedback-Div-inner {
+    width: 98vw;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
   /* ----menu nav----- */
@@ -439,9 +441,26 @@
   .ant-drawer-body {
     padding-left: 5px;
   }
-  .ant-drawer-body ul {
-    width: 44%;
+    .ant-drawer-body {
+    padding-left: 5px;
   }
+  .ant-drawer .ant-drawer-body {
+    width: 60vw;
+  }
+  .ant-drawer .ant-drawer-content {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background: none; /* Remove background */
+    pointer-events: auto;
+}
+.ant-menu-light.ant-menu-root.ant-menu-inline {
+  width: 60%;
+}
+.logo {
+  width: 40px;
+  margin-bottom: 0px;
+}
   /* ------footer------- */
   .Footer-socialMedia span {
     font-size: 20px;
@@ -462,6 +481,7 @@
 
   .home-girl > img {
     height: 380px;
+    margin-top: 26px;
   }
   .rectangle {
     width: 80vw;
@@ -496,7 +516,7 @@
   }
 
   .logImgs > img {
-    height: 300px;
+    height: 280px;
   }
   /* -----------bill payment */
   .Bill-Div {
@@ -774,6 +794,10 @@
     margin-right: 6px;
     margin-left: 6px;
   }
+    /* -----------------feedback------------ */
+    .Feedback-Div-inner {
+      width: 80vw;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* ----menu nav----- */
@@ -791,22 +815,24 @@
   .ant-drawer-body {
     padding-left: 5px;
   }
-  .ant-drawer-body ul {
-    width: 44%;
+  .ant-drawer .ant-drawer-body {
+    width: 45vw;
   }
-  /* ----menu nav----- */
-  .headerMenu > .menu {
-    height: 65px;
-    display: block;
-  }
-  .ant-menu-horizontal .ant-menu-item {
-    display: inline-flex;
-    padding-inline: 12px;
-  }
-  .headerMenu > .menu > li > span {
-    font-size: 14px;
-    font-weight: bold;
-  }
+  .ant-drawer .ant-drawer-content {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background: none; /* Remove background */
+    pointer-events: auto;
+}
+.ant-menu-light.ant-menu-root.ant-menu-inline {
+  width: 45%;
+}
+.logo {
+  width: 40px;
+  margin-bottom: 0px;
+}
+
   /* ------footer------- */
   .Footer-socialMedia span {
     font-size: 20px;
@@ -825,7 +851,8 @@
   }
 
   .home-girl > img {
-    height: 480px;
+    height: 440px;
+    margin-top: 26px;
   }
   .rectangle {
     width: 80vw;
@@ -1111,9 +1138,26 @@
     margin-right: 6px;
     margin-left: 6px;
   }
+  /* ------------------------------signup------------------------ */
+  .dietRegForm {
+    margin: auto;
+    width: 50vw;    
+  }
+  .ant-row  {
+    min-width: 44vw;
+    justify-content: center;
+  }
+  .ant-col-lg-8 {
+    min-width: none;
+  }
+    /* -----------------feedback------------ */
+    .Feedback-Div-inner {
+      width: 80vw;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  /* ----menu nav----- */
+ 
+    /* ----menu nav----- */
   .headerMenu {
     display: none;
     padding-left: 8px;
@@ -1128,14 +1172,23 @@
   .ant-drawer-body {
     padding-left: 5px;
   }
-  .ant-drawer-body ul {
-    width: 36%;
+  .ant-drawer .ant-drawer-body {
+    width: 45vw;
   }
-  /* ----menu nav----- */
-  .headerMenu > .menu {
-    font-size: 16px;
-    font-weight: bold;
-  }
+  .ant-drawer .ant-drawer-content {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background: none; /* Remove background */
+    pointer-events: auto;
+}
+.ant-menu-light.ant-menu-root.ant-menu-inline {
+  width: 35%;
+}
+.logo {
+  width: 50px;
+  margin-bottom: 0px;
+} 
   /* ------footer------- */
   .Footer-socialMedia span {
     font-size: 30px;
@@ -1379,6 +1432,22 @@
     margin-top: 60px;
     width: 360px;
   }
+  /* ------------------------------signup------------------------ */
+  .dietRegForm {
+    margin: auto;
+    width: 50vw;    
+  }
+  .ant-row  {
+    min-width: 44vw;
+    justify-content: center;
+  }
+  .ant-col-lg-8 {
+    min-width: none;
+  }
+    /* -----------------feedback------------ */
+    .Feedback-Div-inner {
+      width: 80vw;
+    }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   /* ----menu nav----- */
@@ -1386,17 +1455,14 @@
     font-size: 18px;
     font-size: bold;
   }
-  .ant-drawer-body {
-    padding-left: 5px;
+  .menu {
+    top: 0;
   }
-  .ant-drawer-body ul {
-    width: 30%;
+  .logo {
+    width: 50px;
+    margin-bottom: 0px;
   }
-  /* ----menu nav----- */
-  .headerMenu > .menu {
-    font-size: 18px;
-    font-weight: bold;
-  }
+
   /* ------footer------- */
   .Footer-socialMedia span {
     font-size: 36px;
@@ -1644,12 +1710,35 @@
   .imageContainer img {
     margin-top: 60px;
   }
+  /* ------------------------------signup------------------------ */
+  .dietRegForm {
+    margin: auto;
+    width: 50vw;    
+  }
+  .ant-row  {
+    min-width: 40vw;
+    justify-content: center;
+  }
+  .ant-col-lg-8 {
+    min-width: none;
+  }
+    /* -----------------feedback------------ */
+    .Feedback-Div-inner {
+      width: 70vw;
+    }
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1600px) {
   /* ----menu nav----- */
   .headerMenu > .menu {
     font-size: 22px;
+  }
+  .menu {
+    top: 0;
+  }
+  .logo {
+    width: 50px;
+    margin-bottom: 0px;
   }
   /* ------footer------- */
   .Footer-socialMedia span {
@@ -1741,7 +1830,7 @@
     width: 500px;
     margin: 36px 8px 0 0;
   }
-  /* --------diet tips------- */
+ 
   .Tips-Details-1 img {
     margin: 0 0 5px 30px;
     width: 300px;
@@ -1764,13 +1853,7 @@
   .Tips-Details-6-inner-Img > img {
     width: 600px;
   }
-  /* --------------diet foods--------- */
-  .Diabetes-Capital-Img > img {
-    height: 250px;
-  }
-  .How-can-Fix-foods-imgs > img {
-    width: 200px;
-  }
+ 
   /* --------------diet foods--------- */
   .process-vs-natural-Div > img {
     width: 620px;
@@ -1899,4 +1982,20 @@
   .imageContainer > img {
     margin-top: 60px;
   }
+  /* ------------------------------signup------------------------ */
+  .dietRegForm {
+    margin: auto;
+    width: 50vw;    
+  }
+  .ant-row  {
+    min-width: 40vw;
+    justify-content: center;
+  }
+  .ant-col-lg-8 {
+    min-width: none;
+  }
+    /* -----------------feedback------------ */
+    .Feedback-Div-inner {
+      width: 60vw;
+    }
 }

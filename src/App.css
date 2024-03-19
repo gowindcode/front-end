@@ -18,17 +18,13 @@
 /* --------------------------------//nav bar menu -----------------------------------------*/
 .Drawer {
 
-  background-color:  #aedd05;
-  display: flex;
-  flex-wrap: wrap;
-  width: 30%;
-   
+  background-color:  #aedd05;   
 }
 
 .menu {
   
   background-color: #749402;
-  font-size: 20px;
+  font-size: 24px;
   border: none;
   padding-left: 0;
   padding-bottom: 0;
@@ -36,14 +32,14 @@
   justify-content: left;
   align-items: center;
   position: fixed;
-  top: 0;
   width: 100%;
-  z-index: 1000
+  z-index: 1000;
+  padding-top: 10px;
 }
 
 
 .MenuOutlined {
-  color: white;
+  color: #3d4d05;;
   font-size: 30px;
   
 }
@@ -59,12 +55,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  margin-top: 6px;
-  margin-left: 10px;
   margin-bottom: 0px;
 }
-
 .headerMenu {
   background-color:  #aedd05;
   background-color: #3d4d05;
@@ -258,7 +250,7 @@ font-size: 12px;
 
 .rectangle {
 
-  height: 95vh;
+  /* height: 95vh; */
   overflow: visible;
   display: flex;
 
@@ -307,7 +299,7 @@ font-size: 12px;
 
   border-top: 20px;
   font-family: "Fira Sans", sans-serif;
-  font-size: 22px;
+  /* font-size: 22px; */
 
 }
 
@@ -320,7 +312,7 @@ font-size: 12px;
 .belive {
   border-top: 20px;
   font-family: "Fira Sans", sans-serif;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 .belive span {
@@ -724,7 +716,6 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   display: flex;
   flex-direction: row;
   justify-content:center;
-  /* align-items: center; */
 }
 
 .innerSignup {
@@ -734,10 +725,8 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .dietRegForm {
-  margin: auto;
-  width: 70vw; 
   font-weight: bold;
-  /* border: 3px solid rgb(8, 2, 2); */
+  
 }
 
 .register {
@@ -1081,14 +1070,14 @@ align-items: center;
   justify-content: center; 
   align-items: center; 
   height: max-content;
-  column-gap: 10px;
+  column-gap: 2px;
   padding: 0 4px 0 4px;
 }
 
 .TableUpLeftctn {
   
   background-color:#749402;
-  width: 30vw;
+  width: 36vw;
   text-align: center;
   margin-bottom: 5px;
   font-weight: 200;
@@ -1100,7 +1089,7 @@ align-items: center;
 .TableUpRightctn {
   
   background-color: #749402;
-  width: 30vw;
+  width: 36vw;
   text-align: center;
   margin-bottom: 5px;
   font-weight: 200;
@@ -1132,6 +1121,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   color: #2c3801;
+  align-items: center;
 }
 
 .centerImageDiv {
@@ -1146,6 +1136,7 @@ align-items: center;
 .Rightview {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .FitbottmDetail {
   
@@ -1167,16 +1158,16 @@ align-items: center;
   text-align: justify;
 }
 
-.FAQDIV:hover {
-  color:#db053b;
-}
-
 .FAQDIV p{
   margin-bottom: 2px;
   text-align: justify;
   padding: 8px;
   font-size: 16px;
   font-weight: bold;
+}
+
+.FAQDIV p:hover {
+  color:#db053b;
 }
 
 .faqs-lists {
@@ -1192,7 +1183,7 @@ align-items: center;
 
 .faqs-lists span:hover {
   font-weight: bold;
-  color:#749402;
+  color:#111600;
 }
 
 .faqs-lists > span {
@@ -1200,7 +1191,18 @@ align-items: center;
   margin-bottom: 5px;
 }
 
+.fitToProductBtn-Div {
+  text-align: center;
+  margin: 8px 0 10px 0;
+}
+.fitToProductBtn-Div Button {
+  box-shadow: 0 4px 4px #000;
+}
 
+.fitToProductBtn-Div Button:hover {
+  box-shadow: 0 6px 6px #000;
+  font-weight: bold;
+}
 /* ----------------------------------------------Bill-Div---------------------------------------- */
 
 .Bill-Div {
@@ -1262,7 +1264,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin: 5px 0 20px 0;
 }
 
 .Bill-Div-Inner span {
@@ -1915,7 +1917,7 @@ color: #2c3801;
 .Feedback-Div-wrap {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 40px 5px 20px 5px;
   align-items: center;
   height: 100vh;
 }
@@ -1924,7 +1926,6 @@ color: #2c3801;
 
   display: flex;
   flex-direction: column;
-  width: 50vw;
   height: auto;
   border:#749402 3px solid;
   justify-content: center;
