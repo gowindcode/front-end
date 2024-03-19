@@ -712,7 +712,6 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   background-image: url("./assets/bg0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content:center;
@@ -1935,6 +1934,10 @@ color: #2c3801;
 .Feedback-Div-inner p {
   font-size: 24px;
   text-align: left;
+}
+.Feedback-Div-inner p i:hover {
+  color: #ffffff;
+  background-color: #749402
 }
 .feedBack-BTN-Div {
 
