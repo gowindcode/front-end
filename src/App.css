@@ -25,7 +25,7 @@
 .menu {
   
   background-color: #749402;
-  font-size: 24px;
+  /* font-size: 24px; */
   border: none;
   padding-left: 0;
   padding-bottom: 0;
@@ -47,7 +47,7 @@
 .menuIcon {
   background-color:  #aedd05;;
   height: 60px;
-  padding-left: 12px;
+  /* padding-left: 12px; */
   /* padding-right: 12px */
 
 }
