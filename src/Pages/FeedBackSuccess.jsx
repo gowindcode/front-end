@@ -13,7 +13,7 @@ function FeedBackSuccess() {
   return (
     <div className="FeedbSuccess-Div">
       <div className="FeedbSuccess-Div-inner">
-        <div>
+        <div className="FeedbSuccess-Div-inner-texts">
           <h3>Thank you for your valuable feedback. 😊</h3>
           <h2>Health is wealth!</h2>
         </div>

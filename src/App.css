@@ -1285,7 +1285,7 @@ align-items: center;
 
 .BillSuccessCard-Div{
   background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
-  height: 100vh;
+  min-height: 95vh;
 }
 
 .BillSuccess-Card-inner {
@@ -1313,7 +1313,7 @@ align-items: center;
 .Bill-Success-Cash-Div {
 
   background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
-  height: 100vh;
+  min-height: 95vh;
 }
 
 .Bill-Success-Cash-inner{
