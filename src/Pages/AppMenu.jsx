@@ -60,12 +60,15 @@ export function AppMenu({ isInline = false }) {
     },
     { key: "/feedback" },
   ];
-
+  
+  //for smaller device we can scroll the menu
+ 
   return (
     <Menu
       onClick={({ key }) => handleItemClick(key)}
       mode={isInline ? "inline" : "horizontal"}
       items={menuItems}
+      style={isInline ? { overflowY: "auto" } : {}}
       className="menu"
     />
   );

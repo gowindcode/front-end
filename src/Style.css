@@ -2,6 +2,7 @@
 
 @media screen and (min-width: 360px) and (max-width: 575px) {
   /* ----menu nav----- */
+   /* ----menu nav----- */
   .ant-drawer-content-wrapper .ant-drawer-content{
     width: 230px; /* Adjusted width for smaller screens */
 }
@@ -13,13 +14,18 @@
     display: flex;
     flex-direction: column;
     top: 20px;
+    font-size: 10px;
+ 
+  }
+  .MenuOutlined {
+    padding-top: 10px;
   }
   .ant-drawer-body {
     padding-left: 5px;
-    width: 54vw;
+    width: 40vw;
   }
   .ant-drawer .ant-drawer-body {
-    width: 54vw;
+    width: 40vw;
   }
   .ant-drawer .ant-drawer-content {
     display: flex;
@@ -27,15 +33,25 @@
     overflow: auto;
     background: none; /* Remove background */
     pointer-events: auto;
+    width: 36vw;
 }
+
 .ant-menu-light.ant-menu-root.ant-menu-inline {
   width: 50%;
+  font-size: 10px;
+  font-weight: bold;
 }
-.ant-drawer-content-wrapper {
-  width: 50vw;
+.ant-drawer-body .ant-menu-light.ant-menu-root.ant-menu-inline {
+  height: calc(100vh - 0px); 
+  overflow-y: auto;
+}
+
+.ant-menu-inline .ant-menu-item {
+  height: 30px;
+  line-height: 30px;
 }
 .logo {
-  width: 35px;
+  width: 30px;
   margin-bottom: 0px;
 }
   /* ------footer------- */
@@ -435,7 +451,10 @@
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  /* ----menu nav----- */
+   /* ----menu nav----- */
+  .ant-drawer-content-wrapper{
+    width: 250px; /* Adjusted width for smaller screens */
+}
   .headerMenu {
     display: none;
     padding-left: 8px;
@@ -443,18 +462,19 @@
   .menu {
     display: flex;
     flex-direction: column;
+    top: 20px;
+    font-size: 10px;
+ 
   }
   .MenuOutlined {
     padding-top: 10px;
   }
   .ant-drawer-body {
     padding-left: 5px;
-  }
-    .ant-drawer-body {
-    padding-left: 5px;
+    width: 30vw;
   }
   .ant-drawer .ant-drawer-body {
-    width: 60vw;
+    width: 30vw;
   }
   .ant-drawer .ant-drawer-content {
     display: flex;
@@ -462,12 +482,25 @@
     overflow: auto;
     background: none; /* Remove background */
     pointer-events: auto;
+    width: 36vw;
 }
+
 .ant-menu-light.ant-menu-root.ant-menu-inline {
-  width: 60%;
+  width: 36%;
+  font-size: 10px;
+  font-weight: bold;
+}
+.ant-drawer-body .ant-menu-light.ant-menu-root.ant-menu-inline {
+  height: calc(100vh - 0px); 
+  overflow-y: auto;
+}
+
+.ant-menu-inline .ant-menu-item {
+  height: 30px;
+  line-height: 30px;
 }
 .logo {
-  width: 40px;
+  width: 20px;
   margin-bottom: 0px;
 }
   /* ------footer------- */
@@ -822,6 +855,9 @@
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* ----menu nav----- */
+  .ant-drawer-content-wrapper .ant-drawer-content{
+    width: 230px; /* Adjusted width for smaller screens */
+}
   .headerMenu {
     display: none;
     padding-left: 8px;
@@ -829,15 +865,19 @@
   .menu {
     display: flex;
     flex-direction: column;
+    top: 20px;
+    font-size: 10px;
+ 
   }
   .MenuOutlined {
     padding-top: 10px;
   }
   .ant-drawer-body {
     padding-left: 5px;
+    width: 40vw;
   }
   .ant-drawer .ant-drawer-body {
-    width: 45vw;
+    width: 40vw;
   }
   .ant-drawer .ant-drawer-content {
     display: flex;
@@ -845,12 +885,25 @@
     overflow: auto;
     background: none; /* Remove background */
     pointer-events: auto;
+    width: 24vw;
 }
+
 .ant-menu-light.ant-menu-root.ant-menu-inline {
-  width: 45%;
+  width: 20%;
+  font-size: 10px;
+  font-weight: bold;
+}
+.ant-drawer-body .ant-menu-light.ant-menu-root.ant-menu-inline {
+  height: calc(100vh - 0px); 
+  overflow-y: auto;
+}
+
+.ant-menu-inline .ant-menu-item {
+  height: 30px;
+  line-height: 30px;
 }
 .logo {
-  width: 40px;
+  width: 20px;
   margin-bottom: 0px;
 }
 
