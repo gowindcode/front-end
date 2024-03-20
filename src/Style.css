@@ -434,16 +434,19 @@
     margin-left: 6px;
   }
   /* ------------------------------signup------------------------ */
+  .signupDiv {
+    min-height: 95vh;
+  }
   .dietRegForm {
     margin: auto;
-    width: 50vw;    
+    text-align: center;
+    width: 70vw;   
   }
   .ant-row  {
-    min-width: 44vw;
-    justify-content: center;
+    min-width: 50vw;
   }
-  .ant-col-lg-22 {
-    min-width: none;
+  .ant-col-lg-8,  .ant-col-xs-22 {
+    min-width: 90%;
   }
   /* -----------------feedback------------ */
   .Feedback-Div-inner {
@@ -837,16 +840,19 @@
     margin-left: 6px;
   }
   /* ------------------------------signup------------------------ */
+  .signupDiv {
+    min-height: 95vh;
+  }
   .dietRegForm {
     margin: auto;
-    width: 50vw;    
+    text-align: center;
+    width: 70vw;   
   }
   .ant-row  {
-    min-width: 44vw;
-    justify-content: center;
+    min-width: 50vw;
   }
-  .ant-col-lg-8 {
-    min-width: none;
+  .ant-col-lg-8,  .ant-col-xs-22 {
+    min-width: 90%;
   }
   /* -----------------feedback------------ */
   .Feedback-Div-inner {
@@ -1213,16 +1219,19 @@
     margin-left: 6px;
   }
   /* ------------------------------signup------------------------ */
+  .signupDiv {
+    min-height: 95vh;
+  }
   .dietRegForm {
     margin: auto;
-    width: 50vw;    
+    text-align: center;
+    width: 60vw;   
   }
   .ant-row  {
-    min-width: 44vw;
-    justify-content: center;
+    min-width: 40vw;
   }
-  .ant-col-lg-8 {
-    min-width: none;
+  .ant-col-lg-8,  .ant-col-xs-22 {
+    min-width: 90%;
   }
     /* -----------------feedback------------ */
     .Feedback-Div-inner {
@@ -1507,16 +1516,19 @@
     width: 360px;
   }
   /* ------------------------------signup------------------------ */
+  .signupDiv {
+    min-height: 95vh;
+  }
   .dietRegForm {
     margin: auto;
-    width: 50vw;    
+    text-align: center;
+    width: 60vw;   
   }
   .ant-row  {
-    min-width: 44vw;
-    justify-content: center;
+    min-width: 40vw;
   }
-  .ant-col-lg-8 {
-    min-width: none;
+  .ant-col-lg-8,  .ant-col-xs-22 {
+    min-width: 90%;
   }
     /* -----------------feedback------------ */
     .Feedback-Div-inner {
@@ -1785,16 +1797,19 @@
     margin-top: 60px;
   }
   /* ------------------------------signup------------------------ */
+  .signupDiv {
+    min-height: 95vh;
+  }
   .dietRegForm {
     margin: auto;
-    width: 50vw;    
+    text-align: center;
+    width: 50vw;   
   }
   .ant-row  {
     min-width: 40vw;
-    justify-content: center;
   }
-  .ant-col-lg-8 {
-    min-width: none;
+  .ant-col-lg-8,  .ant-col-xs-22 {
+    min-width: 90%;
   }
     /* -----------------feedback------------ */
     .Feedback-Div-inner {
@@ -2057,16 +2072,19 @@
     margin-top: 60px;
   }
   /* ------------------------------signup------------------------ */
+  .signupDiv {
+    min-height: 95vh;
+  }
   .dietRegForm {
     margin: auto;
-    width: 50vw;    
+    text-align: center;
+    width: 40vw;   
   }
   .ant-row  {
-    min-width: 40vw;
-    justify-content: center;
+    min-width: 36vw;
   }
-  .ant-col-lg-8 {
-    min-width: none;
+  .ant-col-lg-8,  .ant-col-xs-22 {
+    min-width: 90%;
   }
     /* -----------------feedback------------ */
     .Feedback-Div-inner {
