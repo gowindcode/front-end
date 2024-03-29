@@ -18,7 +18,7 @@ function DietTips() {
   };
 
   const getConsultantClick = () => {
-    navigate("/signup"); //navigate to signup page
+    navigate("/get-consultant"); //navigate to signup page
   };
 
   const text = `Here are some tips for keeping a food diary:

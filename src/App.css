@@ -1,13 +1,12 @@
-@import '../node_modules/antd/dist/reset.css';
-@import url('../src/Style.css');
+@import "../node_modules/antd/dist/reset.css";
+@import url("../src/Style.css");
 
-
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.App{
+.App {
   /* text-align: center; */
   min-height: 100vh;
   display: flex;
@@ -17,13 +16,11 @@
 
 /* --------------------------------//nav bar menu -----------------------------------------*/
 .Drawer {
-
-  background-color:  #aedd05;   
+  background-color: #aedd05;
   scroll-behavior: auto;
 }
 
 .menu {
-  
   background-color: #749402;
   /* font-size: 24px; */
   border: none;
@@ -38,18 +35,15 @@
   padding-top: 10px;
 }
 
-
 .MenuOutlined {
-  color: #3d4d05;;
+  color: #3d4d05;
   font-size: 30px;
-  
 }
 .menuIcon {
-  background-color:  #aedd05;;
+  background-color: #aedd05;
   height: 60px;
   /* padding-left: 12px; */
   /* padding-right: 12px */
-
 }
 
 .logo {
@@ -59,18 +53,16 @@
   margin-bottom: 0px;
 }
 .headerMenu {
-  background-color:  #aedd05;
+  background-color: #aedd05;
   background-color: #3d4d05;
 }
 
 .appBody {
-  
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 }
 
 .routers-bar {
-
   background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
 }
 
@@ -81,47 +73,41 @@
 /* //----------------Badge from antd--------- */
 
 .cart-badge .ant-badge {
-   
-    margin-left: 8px;
-    margin-top: -6px;
+  margin-left: 8px;
+  margin-top: -6px;
 }
 
 /* ---------------------------------------Footer-------------------------------- */
 
 .Footer-div {
-background-color: rgb(17, 17, 17);
-font-size: 12px;
+  background-color: rgb(17, 17, 17);
+  font-size: 12px;
 }
 
-.Footer-inner{
- display: flex;
- flex-direction: column;
- justify-content: center;
+.Footer-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.Footer-details{
-
+.Footer-details {
   margin-bottom: 0;
   text-align: center;
   color: #aedd05;
 }
 
-.Footer-JoinUs{
-
+.Footer-JoinUs {
   font: bold;
   font-family: "Protest Revolution", sans-serif;
-  color: #CD201F;
+  color: #cd201f;
   text-align: center;
-
 }
 .Footer-city-Branches {
-
   display: flex;
   flex-wrap: wrap;
 }
 
-.Footer-city-Branches p{
-
+.Footer-city-Branches p {
   padding-left: 8px;
   margin-bottom: 2px;
   text-align: center;
@@ -129,7 +115,6 @@ font-size: 12px;
 }
 
 .Footer-details span {
-
   padding-left: 10px;
   margin-bottom: 2px;
   text-align: center;
@@ -137,38 +122,28 @@ font-size: 12px;
 }
 
 .Footer-email {
-
-  color: #CD201F;
+  color: #cd201f;
   padding-left: 10px;
 }
 
-
-
-.Footer-city-Branches{
-
+.Footer-city-Branches {
   display: flex;
   justify-content: center;
   padding: 5px 10px 5px 10px;
 }
 
 .copywright {
-
   margin-bottom: 5px;
   text-align: center;
- 
 }
 .copywright span {
-
   padding-left: 10px;
   color: #aedd05;
- 
 }
 
 .copywright .Footer-backToHome {
-
   cursor: pointer;
 }
-
 
 /* -----------------Footer social media */
 
@@ -182,24 +157,20 @@ font-size: 12px;
   margin-bottom: 0;
 }
 
-
 .Footer-socialMedia .Android:hover {
-  
   border-radius: 12px;
   background-color: #000;
-  color:#a4c639;
+  color: #a4c639;
   cursor: pointer;
 }
 
 .Footer-socialMedia .Apple:hover {
-
-  color:#ffffff;
+  color: #ffffff;
   cursor: pointer;
 }
 
 .Footer-socialMedia .Twitter:hover {
-
-  color:#1DA1F2;
+  color: #1da1f2;
   cursor: pointer;
 }
 
@@ -209,17 +180,17 @@ font-size: 12px;
 }
 
 .Footer-socialMedia .Youtube:hover {
-  color: #CD201F;
+  color: #cd201f;
   cursor: pointer;
 }
 
 .Footer-socialMedia .Skype:hover {
-  color:  #00aff0;
+  color: #00aff0;
   cursor: pointer;
 }
 
 .Footer-socialMedia .Facebook:hover {
-  color: #316FF6;
+  color: #316ff6;
   cursor: pointer;
 }
 
@@ -229,7 +200,7 @@ font-size: 12px;
 }
 
 .Footer-socialMedia .X:hover {
-  color: #1DA1F2;
+  color: #1da1f2;
   cursor: pointer;
 }
 
@@ -250,39 +221,31 @@ font-size: 12px;
 }
 
 .rectangle {
-
   /* height: 95vh; */
   overflow: visible;
   display: flex;
-
 }
 
 .wana-get {
-
   display: flex;
   flex-direction: column;
-
 }
 
 .getDiet {
-  
   font-family: "Protest Riot", sans-serif;
   text-align: center;
-
 }
- 
+
 .youR-right {
   font-family: "Anta", sans-serif;
   text-align: center;
 }
 
 .dietPera {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .welcome {
@@ -292,23 +255,19 @@ font-size: 12px;
 }
 
 .welcome span {
-   color: #db053b;
-   font-family: "Protest Riot", sans-serif; 
+  color: #db053b;
+  font-family: "Protest Riot", sans-serif;
 }
 
-.didYou{
-
+.didYou {
   border-top: 20px;
   font-family: "Fira Sans", sans-serif;
   /* font-size: 22px; */
-
 }
 
 .simple {
-
   font-family: "Protest Revolution", sans-serif;
   color: #db053b;
-
 }
 .belive {
   border-top: 20px;
@@ -335,20 +294,19 @@ font-size: 12px;
 }
 
 .Diet-BTN:hover {
-  background-color:  #2c3801;
+  background-color: #2c3801;
   box-shadow: 10px 5px black;
 }
 
 /* -------------Home page--------------------------- */
 
 .HomeDiv {
-background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
+  background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .homeContent {
-
- margin-top: 0;
- margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .dietPlate {
   font-family: "Pacifico", cursive;
@@ -366,7 +324,6 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .Delicious {
-
   font-family: "Love Light", cursive;
   font-weight: bold;
   font-size: 80px;
@@ -382,7 +339,7 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 .food {
   display: flex;
   justify-content: center;
-  align-items:last baseline;
+  align-items: last baseline;
   margin-right: 10px;
   font-family: "Protest Riot", sans-serif;
   font-size: 30px;
@@ -397,26 +354,23 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .smile1 img {
- width: 30px; 
- margin-left: 2px;
+  width: 30px;
+  margin-left: 2px;
 }
 
 .Smile2 img {
-  width: 30px; 
+  width: 30px;
   margin-left: 2px;
   margin-right: 2px;
- }
+}
 
 .makes {
-
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
   margin: 0 auto;
-  
 }
 
 .will-get {
-
   font-family: "Protest Strike", sans-serif;
   color: orangered;
   margin: 0 auto;
@@ -442,17 +396,15 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .knowMore-BTN:hover {
-  background-color:  #2c3801;
+  background-color: #2c3801;
   box-shadow: 10px 5px black;
   font-weight: bold;
 }
 
-
 /* ------------------------ Benifits Page-------------------------------------- */
 
 .Diet-Benifits {
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
-
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
 }
 
 .Benifits-Container {
@@ -461,10 +413,14 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   flex-wrap: wrap;
   column-gap: 8px;
 }
-.Benifit-Detail-1, .Benifit-Detail-2, 
-.Benifit-Detail-4, .Benifit-Detail-5, 
-.Benifit-Detail-6, .Benifit-Detail-7,
-.Benifit-Detail-8, h3{
+.Benifit-Detail-1,
+.Benifit-Detail-2,
+.Benifit-Detail-4,
+.Benifit-Detail-5,
+.Benifit-Detail-6,
+.Benifit-Detail-7,
+.Benifit-Detail-8,
+h3 {
   text-align: center;
 }
 .Benifit-Detail-123 {
@@ -473,7 +429,7 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .Benifit-Detail-1 {
-  color:#2c3801;
+  color: #2c3801;
   font-weight: bold;
   display: flex;
   flex-wrap: wrap;
@@ -498,9 +454,9 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   font-weight: bold;
 }
 
-.Benifit-Detail-1:hover, 
-.Benifit-Detail-2:hover, 
-.Benifit-Detail-3:hover, 
+.Benifit-Detail-1:hover,
+.Benifit-Detail-2:hover,
+.Benifit-Detail-3:hover,
 .Benifit-Detail-4:hover,
 .Benifit-Detail-5:hover,
 .Benifit-Detail-6:hover,
@@ -509,19 +465,19 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   box-shadow: #000 0 0 16px;
 }
 
-.Benifit-Detail-1 >.Reduced-Risk {
+.Benifit-Detail-1 > .Reduced-Risk {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.Benifit-Detail-1 >.Reduced-Risk span {
+.Benifit-Detail-1 > .Reduced-Risk span {
   display: flex;
   margin: 8px;
 }
 
 .Benifit-Detail-2 {
-  color:#2c3801;
+  color: #2c3801;
   font-weight: bold;
   display: flex;
   padding: 8px;
@@ -541,7 +497,7 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .Benifit-Detail-3 {
-  color:#2c3801;
+  color: #2c3801;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -558,7 +514,7 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .Benifit-Detail-4 {
-  color:#2c3801;
+  color: #2c3801;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -571,13 +527,13 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 .Benifit-Detail-4-details {
   padding: 10px;
 }
-.Benifit-Img-4 >img {
+.Benifit-Img-4 > img {
   padding: 0 0 5px 0;
   border-radius: 20px;
 }
 
 .Benifit-Detail-5 {
-  color:#2c3801;
+  color: #2c3801;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -588,15 +544,15 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   margin: 5px 5px 5px 10px;
 }
 
-.Benifit-Detail-5  p{
+.Benifit-Detail-5 p {
   margin: 0 0 5px 10px;
   padding: 0 10px 0 px;
   /* background-color: #1DA1F2; */
 }
 
-.Benifit-Detail-5  p span {
+.Benifit-Detail-5 p span {
   background-color: #a4c639;
-  display: inline-block
+  display: inline-block;
 }
 
 .Benifit-Detail-5 span {
@@ -605,13 +561,13 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   text-align: left;
 }
 
-.Benifit-Img-5 >img {
+.Benifit-Img-5 > img {
   padding: 0 0 5px 0;
   border-radius: 20px;
 }
 
 .Benifit-Detail-6 {
-  color:#2c3801;
+  color: #2c3801;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -628,17 +584,16 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   text-align: left;
 }
 
-.Benifit-Detail-6 p{
+.Benifit-Detail-6 p {
   margin: 5px 0 0 10px;
 }
 
 .Benifit-Detail-6 img {
-
   height: 380px;
 }
 
 .Benifit-Detail-7 {
-  color:#2c3801;
+  color: #2c3801;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -649,19 +604,18 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   margin: 5px 5px 5px 10px;
 }
 
-.Benifit-Detail-7 p{
+.Benifit-Detail-7 p {
   margin: 8px 0 0 5px;
 }
 
 .Benifit-Detail-7 span {
-
   display: flex;
   text-align: left;
   padding: 5px 0 0 20px;
 }
 
 .Benifit-Detail-8 {
-  color:#2c3801;
+  color: #2c3801;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -671,13 +625,12 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   border-radius: 20px;
   margin: 5px 5px 5px 10px;
 }
-.Benifit-Detail-8-details >h4{
+.Benifit-Detail-8-details > h4 {
   font-size: 22px;
   font-weight: bold;
   text-decoration: underline;
 }
 .Benifit-Detail-8 span {
-
   display: flex;
   text-align: left;
   padding: 5px 0 5px 20px;
@@ -700,33 +653,31 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .Benifits-BTN-DIV button:hover {
-  background-color:  #2c3801;
+  background-color: #2c3801;
   box-shadow: 0 10px 10px black;
   font-weight: bold;
 }
 
-
 /* ---------------------------Register/signup----------------------------------- */
 
-.signupDiv{
-  background-image:  linear-gradient((#aedd05), rgba(163, 180, 3, 0.74));
+.signupDiv {
+  background-image: linear-gradient((#aedd05), rgba(163, 180, 3, 0.74));
   background-image: url("./assets/bg0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
 }
 
 .innerSignup {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   margin-top: 40px;
 }
 
 .dietRegForm {
   font-weight: bold;
-  
 }
 
 .register {
@@ -737,27 +688,23 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   text-decoration: underline;
 }
 
-
-.signBTN-DIV { 
- display: flex;
- justify-content: center;
- align-items: center;
- text-align: center;
+.signBTN-DIV {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .BTN-SIGNUP {
-
   background-color: #749402;
   box-shadow: 5px 1px black;
   text-align: center;
- 
 }
 
 .BTN-SIGNUP:hover {
-    background-color:  #ffffff;
-    box-shadow: 10px 5px black;
-    font-weight: bold;
-    
+  background-color: #ffffff;
+  box-shadow: 10px 5px black;
+  font-weight: bold;
 }
 
 .validDiv {
@@ -783,7 +730,7 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 
 .Innerlog-Div {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: start;
   padding-top: 100px;
   height: 95vh;
@@ -791,7 +738,6 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 }
 
 .signin {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -802,7 +748,7 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
 /* .loginForm {
   font-weight: bold;
   /* justify-content: center; */
- /* display: flex;
+/* display: flex;
 }
 */
 
@@ -819,8 +765,8 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   font-weight: bold;
 }
 
-.logBtn:hover{
-  background-color:  #ffffff;
+.logBtn:hover {
+  background-color: #ffffff;
   box-shadow: 10px 5px black;
   font-weight: bold;
 }
@@ -838,7 +784,6 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   height: 100px;
 } */
 
-
 /* ---------------------------Products Page------------------------------------------ */
 
 /* //for loading */
@@ -848,26 +793,32 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Semi-transparent white background */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.loading-spinner{
+.loading-spinner {
   color: #749402;
-} 
+}
 
 .productDiv {
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
-  display: flex; 
-  flex-direction: row; 
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   row-gap: 10px;
   column-gap: 10px;
   padding: 10px;
+  margin-top: 10px;
 }
 
 /* //card main antd */
@@ -888,35 +839,33 @@ background-image: linear-gradient(#aedd05, rgba(118, 218, 3, 0.5));
   font-weight: bold;
   font-size: 13px;
   overflow: hidden;
-  white-space:pre-line;
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',
-  Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji',
-  'Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  white-space: pre-line;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 8px 3px 10px 3px;
   height: 60px;
   padding-bottom: 5px;
   border-bottom: 0.5px solid rgb(211, 199, 199);
-  line-height: 1.10;
+  line-height: 1.1;
 }
 
-.ant-card .ant-card-meta-title:hover{
-
+.ant-card .ant-card-meta-title:hover {
   color: #db053b;
 }
 
 .ant-card .ant-card-body {
- 
   padding: 4px 10px;
 }
 
 .CardIn {
-width: auto;
-height: 470px;
+  width: auto;
+  height: 470px;
 }
 
 .CardIn h6 {
- text-decoration:line-through;
- margin-bottom: 0;
+  text-decoration: line-through;
+  margin-bottom: 0;
 }
 
 .CardIn img {
@@ -925,7 +874,7 @@ height: 470px;
   padding: 2px 10px 2px 10px;
 }
 
-.CardIn img:hover{
+.CardIn img:hover {
   object-fit: fill;
 }
 
@@ -939,7 +888,6 @@ height: 470px;
 }
 
 .ProDescription span {
-
   font-weight: bold;
 }
 
@@ -951,7 +899,6 @@ height: 470px;
 }
 
 .StockRat .stock {
-
   color: #026417;
 }
 
@@ -967,10 +914,9 @@ height: 470px;
 }
 
 .OfferPrice span {
-
   font-size: 26px;
   font-weight: bold;
-  color:#db053b;
+  color: #db053b;
 }
 
 .OfferPrice span sup {
@@ -979,30 +925,22 @@ height: 470px;
 }
 
 .Add2Cart {
-
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Add2Cart button {
-
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
-
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
 }
 
-
-.Add2Cart >.ant-btn span:hover {
-
+.Add2Cart > .ant-btn span:hover {
   font-weight: bold;
-
 }
-
 
 /* --------------------Rating star----------------------- */
 
 .fa-star-o {
-
   color: goldenrod;
 }
 
@@ -1014,15 +952,13 @@ align-items: center;
   color: goldenrod;
 }
 
-
 /* ----------------------------Fit Chart - Body Height and Weight chart-----------------------------*/
 .ChartDiv {
-
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
   height: max-content;
 }
 
-.top-peraDiv p{
+.top-peraDiv p {
   margin-bottom: 0;
   background-color: #3d4d05;
   border-radius: 20px;
@@ -1039,7 +975,6 @@ align-items: center;
   padding: 10px 4px 0 4px;
 }
 
-
 .Chart-title1 {
   display: flex;
   justify-content: center;
@@ -1048,7 +983,6 @@ align-items: center;
   font-weight: bold;
   height: max-content;
 }
-
 
 .Chart-title2 {
   display: flex;
@@ -1059,17 +993,16 @@ align-items: center;
 }
 
 .InnerChart {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: max-content;
   column-gap: 2px;
   padding: 0 4px 0 4px;
 }
 
 .TableUpLeftctn {
-  
-  background-color:#749402;
+  background-color: #749402;
   width: 36vw;
   text-align: center;
   margin-bottom: 5px;
@@ -1080,7 +1013,6 @@ align-items: center;
 }
 
 .TableUpRightctn {
-  
   background-color: #749402;
   width: 36vw;
   text-align: center;
@@ -1092,25 +1024,24 @@ align-items: center;
 }
 
 /* //------thead */
-.ant-table-wrapper .ant-table-thead >tr>th {
-
-  background-color:#749402;
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background-color: #749402;
   text-align: center;
   font-weight: bold;
 }
 
-.ant-table-cell{
-  color:#2c3801;
+.ant-table-cell {
+  color: #2c3801;
   font-weight: bold;
   text-align: center;
 }
 
-.custom-row:hover{
+.custom-row:hover {
   color: #2c3801;
   font-weight: bold;
 }
 
-.leftView{
+.leftView {
   display: flex;
   flex-direction: column;
   color: #2c3801;
@@ -1132,17 +1063,16 @@ align-items: center;
   align-items: center;
 }
 .FitbottmDetail {
-  
   padding: 8px;
 }
 
-.FitbottmDetail  p{
+.FitbottmDetail p {
   margin-bottom: 0;
   padding: 8px;
   text-align: justify;
 }
 
-.FitbottmDetail  p span{
+.FitbottmDetail p span {
   font-weight: bold;
 }
 
@@ -1151,7 +1081,7 @@ align-items: center;
   text-align: justify;
 }
 
-.FAQDIV p{
+.FAQDIV p {
   margin-bottom: 2px;
   text-align: justify;
   padding: 8px;
@@ -1160,23 +1090,21 @@ align-items: center;
 }
 
 .FAQDIV p:hover {
-  color:#db053b;
+  color: #db053b;
 }
 
 .faqs-lists {
   padding: 8px 8px 8px 12px;
-  background-color:#3d4d05;
-
+  background-color: #3d4d05;
 }
 
 .faqs-lists span {
-
-  color:#749402;
+  color: #749402;
 }
 
 .faqs-lists span:hover {
   font-weight: bold;
-  color:#111600;
+  color: #111600;
 }
 
 .faqs-lists > span {
@@ -1199,15 +1127,14 @@ align-items: center;
 /* ----------------------------------------------Bill-Div---------------------------------------- */
 
 .Bill-Div {
-
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
 }
 
 .Bill-Div-Inner {
-  min-height: 100vh; 
-} 
+  min-height: 100vh;
+}
 
-.Bill-Div-Inner span{
+.Bill-Div-Inner span {
   margin: 18px 0 16px 10px;
   font-size: 18px;
   font-weight: bold;
@@ -1261,8 +1188,7 @@ align-items: center;
 }
 
 .Bill-Div-Inner span {
-
-  margin: 0; 
+  margin: 0;
   font-size: 14px;
 }
 
@@ -1273,23 +1199,19 @@ align-items: center;
   color: #ffffff;
 }
 
-
 .Bill-Payment-Btn Button:hover {
-
   box-shadow: 5px 5px black;
   font-weight: bold;
-
 }
 
 /* -----------------------------------------------BillSuccessCard--------------------------------- */
 
-.BillSuccessCard-Div{
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+.BillSuccessCard-Div {
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
   min-height: 95vh;
 }
 
 .BillSuccess-Card-inner {
-
   display: flex;
   flex-direction: column;
   height: min-content;
@@ -1300,7 +1222,6 @@ align-items: center;
 }
 
 .BillSuccess-Card-inner p span {
-
   color: #db053b;
 }
 
@@ -1311,13 +1232,11 @@ align-items: center;
 /* -------------------------------------------------Bill-Success-Cash-Div--------------------------------- */
 
 .Bill-Success-Cash-Div {
-
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
   min-height: 95vh;
 }
 
-.Bill-Success-Cash-inner{
-
+.Bill-Success-Cash-inner {
   display: flex;
   flex-direction: column;
   height: min-content;
@@ -1328,7 +1247,6 @@ align-items: center;
 }
 
 .Bill-Success-Cash-inner p span {
-
   color: #db053b;
 }
 /* 
@@ -1337,12 +1255,10 @@ align-items: center;
   width: 300px;
 } */
 
-
 /* -----------------------------------------------Cart_Div-------------------------------------- */
 
 .Cart_Div {
-
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
   /* height: 100vh; */
   display: flex;
   justify-content: center;
@@ -1376,13 +1292,13 @@ align-items: center;
 }
 
 .Back2ProductsBtn {
-  background-color:#749402;
+  background-color: #749402;
   font-weight: bold;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .Back2ProductsBtn:hover {
-  background-color:  #ffffff;
+  background-color: #ffffff;
   box-shadow: 10px 6px black;
   font-weight: bold;
 }
@@ -1396,16 +1312,13 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .CARD:hover {
-
   box-shadow: 0 0 10px #749402;
-
 }
 .Cart-Remove-Btn :hover {
-    color: #db053b;
+  color: #db053b;
 }
 .Cart-Remove-Btn button:hover {
   font-weight: bold;
@@ -1417,29 +1330,27 @@ align-items: center;
   margin-top: 12px;
 }
 
-.Cart-Go-To-Payment-Btn Button{
-  background-color:#749402;
+.Cart-Go-To-Payment-Btn Button {
+  background-color: #749402;
   font-weight: bold;
-  color:#ffffff;
+  color: #ffffff;
   font-weight: bold;
   box-shadow: 2px 2px black;
 }
 
-.Cart-Go-To-Payment-Btn Button:hover{
+.Cart-Go-To-Payment-Btn Button:hover {
   box-shadow: 5px 5px black;
   background-color: #5e7700;
 }
 
-
 /* ------------------------------------------About us-------------------------------- */
 
 .Aboutus-div {
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
   display: flex;
-
 }
 
-.Aboutus-inner{
+.Aboutus-inner {
   display: flex;
   /* flex-direction: row; */
   column-gap: 10px;
@@ -1459,7 +1370,6 @@ align-items: center;
   font-family: "Anta", sans-serif;
   color: #01270a;
   border-bottom: #01270a 2px solid;
-  
 }
 
 .weAre {
@@ -1493,7 +1403,7 @@ align-items: center;
   margin: 3px 0 0 30px;
   font-size: 14px;
   font-weight: bold;
-  color:#db053b;
+  color: #db053b;
   text-shadow: #2c3801 0 5px 5px;
   /* background-color: #026417; */
 }
@@ -1529,27 +1439,23 @@ align-items: center;
 
 .Aboutus-BTN-Div {
   margin: 20px 0 0 20px;
-    text-align: center;
+  text-align: center;
 }
 
 .Aboutus-BTN-Div button {
-
   background-color: #749402;
   box-shadow: 5px 1px black;
   text-align: center;
   color: #ffffff;
 }
-  
-.Aboutus-BTN-Div button:hover {
 
-  background-color:  #ffffff;
+.Aboutus-BTN-Div button:hover {
+  background-color: #ffffff;
   box-shadow: 10px 5px black;
   font-weight: bold;
-      
 }
 
 .socialMedia {
-
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -1561,22 +1467,19 @@ align-items: center;
 }
 
 .socialMedia .Android:hover {
-  
   border-radius: 12px;
   background-color: #000;
-  color:#a4c639;
+  color: #a4c639;
   cursor: pointer;
 }
 
 .socialMedia .Apple:hover {
-
-  color:#ffffff;
+  color: #ffffff;
   cursor: pointer;
 }
 
 .socialMedia .Twitter:hover {
-
-  color:#1DA1F2;
+  color: #1da1f2;
   cursor: pointer;
 }
 
@@ -1586,17 +1489,17 @@ align-items: center;
 }
 
 .socialMedia .Youtube:hover {
-  color: #CD201F;
+  color: #cd201f;
   cursor: pointer;
 }
 
 .socialMedia .Skype:hover {
-  color:  #00aff0;
+  color: #00aff0;
   cursor: pointer;
 }
 
 .socialMedia .Facebook:hover {
-  color: #316FF6;
+  color: #316ff6;
   cursor: pointer;
 }
 
@@ -1606,7 +1509,7 @@ align-items: center;
 }
 
 .socialMedia .X:hover {
-  color: #1DA1F2;
+  color: #1da1f2;
   cursor: pointer;
 }
 
@@ -1624,11 +1527,10 @@ align-items: center;
   height: auto;
 }
 
-
 /* ---------------------------------//Diet Tips---------------------------------------- */
 
 .Tips-Div {
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
 }
 
 /* ----Tips Details-1--- */
@@ -1640,12 +1542,12 @@ align-items: center;
 }
 
 .Tips-Details-1 {
-width: 96vw;
-border: 2px solid #5e7700;
-display: flex;
-flex-direction: column;
-margin: 16px 0 0 0;
-color: #2c3801;
+  width: 96vw;
+  border: 2px solid #5e7700;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 0 0;
+  color: #2c3801;
 }
 
 .Tips-Details-1 h3 {
@@ -1654,15 +1556,17 @@ color: #2c3801;
   padding: 5px 0 8px 0;
 }
 
-.Tips-Details-1 p, h3, span {
+.Tips-Details-1 p,
+h3,
+span {
   color: #2c3801;
 }
 
-.Tips-Details-1 p, 
-.Tips-Details-2 p, 
-.Tips-Details-3 p, 
-.Tips-Details-4 p, 
-.Tips-Details-5 p, 
+.Tips-Details-1 p,
+.Tips-Details-2 p,
+.Tips-Details-3 p,
+.Tips-Details-4 p,
+.Tips-Details-5 p,
 .Tips-Details-6 p,
 .Tips-Details-7 p,
 .Tips-Details-8 p {
@@ -1671,15 +1575,14 @@ color: #2c3801;
 }
 
 .Tips-Details-1-inner-span {
-   padding: 5px 0 5px 10px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   /* align-items: center; */
+  padding: 5px 0 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .Tips-Details-1-inner-span span {
-
   display: block;
   padding: 5px 0 0 5px;
 }
@@ -1706,7 +1609,6 @@ color: #2c3801;
   padding-top: 5px;
 }
 .Tips-Details-2-inner {
-
   display: flex;
   width: 90vw;
   /* justify-content:space-between; */
@@ -1738,16 +1640,14 @@ color: #2c3801;
 .Tips-Details-3 h3 {
   display: block;
   text-align: center;
-  padding-top: 5px;  
+  padding-top: 5px;
 }
 
 .Tips-Details-3 p {
-  
   margin-left: 10px;
 }
 
 .Tips-Details-3-inner {
-
   display: flex;
   width: 95vw;
   /* justify-content:space-between; */
@@ -1756,7 +1656,6 @@ color: #2c3801;
 }
 
 .Tips-Details-3-inner img {
-
   width: 250px;
 }
 
@@ -1772,19 +1671,16 @@ color: #2c3801;
 }
 
 .Tips-Details-4 h3 {
-
   display: block;
   text-align: center;
   padding-top: 5px;
 }
 .Tips-Details-4-inner {
- 
   display: flex;
   width: 95vw;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   padding: 8px 0 8px 0;
-
 }
 
 /* ----Tips Details-5--- */
@@ -1799,7 +1695,6 @@ color: #2c3801;
 }
 
 .Tips-Details-5 h3 {
-
   display: block;
   text-align: center;
   padding-top: 5px;
@@ -1811,7 +1706,6 @@ color: #2c3801;
   align-items: center;
 }
 
-
 .Tips-Details-5-inner-content {
   margin: 16px 5px 0 16px;
 }
@@ -1821,28 +1715,23 @@ color: #2c3801;
   font-weight: bold;
 }
 .get-consultant-BTN-Div {
-
   display: flex;
   justify-content: center;
   margin: 16px 0 8px 0;
 }
 
 .get-consultant-BTN-Div button {
-
   background-color: #749402;
   box-shadow: 5px 1px black;
   text-align: center;
   color: #ffffff;
 }
-  
-.get-consultant-BTN-Div button:hover {
 
-  background-color:  #ffffff;
+.get-consultant-BTN-Div button:hover {
+  background-color: #ffffff;
   box-shadow: 10px 5px black;
   font-weight: bold;
-      
 }
-
 
 /* ----Tips Details-6--- */
 
@@ -1856,19 +1745,14 @@ color: #2c3801;
 }
 
 .Tips-Details-6 h5 {
-
   display: block;
   text-align: center;
   margin-top: 10px;
-
 }
 
 .Tips-Details-6-inner {
-
   display: flex;
-
 }
-
 
 /* ----Tips Details-7--- */
 
@@ -1883,7 +1767,6 @@ color: #2c3801;
 }
 
 .Tips-Details-7 h3 {
-
   display: block;
   text-align: center;
   padding-top: 5px;
@@ -1903,8 +1786,7 @@ color: #2c3801;
 /* -----------------------------Feedback Div---------------------------------------- */
 
 .Feedback-Div {
-
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
 }
 
 .Feedback-Div-wrap {
@@ -1915,11 +1797,10 @@ color: #2c3801;
 }
 
 .Feedback-Div-inner {
-
   display: flex;
   flex-direction: column;
   height: auto;
-  border:#749402 3px solid;
+  border: #749402 3px solid;
   justify-content: center;
   padding: 18px;
 }
@@ -1930,17 +1811,15 @@ color: #2c3801;
 }
 .Feedback-Div-inner p i:hover {
   color: #ffffff;
-  background-color: #749402
+  background-color: #749402;
 }
 .feedBack-BTN-Div {
-
   display: flex;
   justify-content: center;
   margin: 16px 0 0 0;
 }
 
 .feedBack-BTN-Div button {
-
   background-color: #749402;
   box-shadow: 5px 5px black;
   text-align: center;
@@ -1951,13 +1830,10 @@ color: #2c3801;
 /* -------------------------------------------Feedback success-------------------------------- */
 
 .FeedbSuccess-Div {
-
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
-
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
 }
 
 .FeedbSuccess-Div-inner {
-
   display: flex;
   flex-direction: column;
   padding: 180px;
@@ -1965,30 +1841,25 @@ color: #2c3801;
 }
 
 .FeedbSuccess-Div-inner h2 {
-
   text-align: center;
   /* font-family: "Protest Strike", sans-serif; */
   font-family: "Love Light", cursive;
   font-weight: bold;
-  color:#db053b;
+  color: #db053b;
   font-size: 46px;
 }
 
 .FeedbSuccess-Div-inner h2:hover {
-
   font-size: 52px;
   text-shadow: 0 2px 5px #ffffff;
 }
 
 .FeedbSuccess-Div-BTN {
-
   display: flex;
   text-align: center;
-
 }
 
 .FeedbSuccess-Div-BTN button {
-
   background-color: #749402;
   box-shadow: 4px 4px black;
   text-align: center;
@@ -1996,40 +1867,30 @@ color: #2c3801;
   font-weight: bold;
 }
 
-
 .FeedbSuccess-Div-BTN button:hover {
-
   background-color: #749402;
   box-shadow: 5px 5px black;
   text-align: center;
   color: #ffffff;
   font-weight: bold;
-
 }
-
-
 
 /* ---------------------------------------Signout------------------------------------------------ */
 
 .Signout-Div {
-
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
   min-height: 100vh;
   display: flex;
   /* justify-content: center; */
   flex-direction: column;
-
 }
 
 .Signout-Div h5 {
-
-padding: 180px 0 0 0;
-text-align: center;
-
+  padding: 180px 0 0 0;
+  text-align: center;
 }
 
 .Signout-Div h4 {
-
   text-align: center;
   font-family: "Fira Sans", sans-serif;
   color: #d62976;
@@ -2037,18 +1898,14 @@ text-align: center;
   font-weight: bold;
 }
 
-
 /* ----------------------------------------Diet Foods--------------------------------------------------- */
 
 .Diet-foods-Div {
-
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
-
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
 }
 
 .Diet-foods-inner {
-
-  background-image:  linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
+  background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
   height: max-content;
   padding: 10px;
 }
@@ -2066,9 +1923,8 @@ text-align: center;
 }
 
 .Diabetes-Capital-content {
-  
   padding: 14px 0 0 10px;
-  color: #2c3801;  
+  color: #2c3801;
 }
 
 .Diabetes-Capital-content li {
@@ -2083,7 +1939,7 @@ text-align: center;
   display: flex;
   align-items: center;
 }
-.Diabetes-Capital-Img >img {
+.Diabetes-Capital-Img > img {
   border-radius: 20px;
 }
 
@@ -2094,22 +1950,19 @@ text-align: center;
 }
 
 .Diet-foods-consequences h3 {
-
   text-align: center;
   padding-top: 5px;
   margin-bottom: 5px;
 }
 
 .Diet-foods-consequences p {
-
   text-align: left;
   padding: 0 10px 5px 10px;
-  margin-bottom:0;
+  margin-bottom: 0;
   text-indent: 20px;
 }
 
 .process-vs-natural-Div {
-
   color: #2c3801;
   padding: 5px;
   border: 2px solid #5e7700;
@@ -2118,21 +1971,18 @@ text-align: center;
 }
 
 .process-vs-natural-Div img {
-
   border-radius: 20px;
 }
-.process-vs-natural-Div h2, p {
-
+.process-vs-natural-Div h2,
+p {
   text-align: center;
 }
 
 .process-vs-natural-contents {
-
   display: flex;
 }
 
 .processed-food {
- 
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -2146,7 +1996,6 @@ text-align: center;
   text-align: center;
 }
 .natural-food {
-
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -2171,19 +2020,16 @@ text-align: center;
 }
 
 .Traditional-Indian-Diet h2 {
-
   text-align: center;
 }
 
 .Traditional-Indian-Diet-Image {
-
- display: flex;
- flex-direction: row;
- justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .Traditional-Indian-Diet p {
-
   color: #db053b;
   padding-top: 8px;
   font-weight: bold;
@@ -2191,7 +2037,6 @@ text-align: center;
 }
 
 .How-can-Fix {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2202,30 +2047,24 @@ text-align: center;
 }
 
 .How-can-Fix-foods-imgs {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-
 .Foods-to-Include {
-
   display: flex;
   flex-direction: column;
   align-items: left;
   border: 2px solid #5e7700;
-  color:#2c3801;
+  color: #2c3801;
   padding: 5px;
   margin-bottom: 8px;
-  
 }
 
 .Foods-to-Include h2 {
-
   text-align: center;
-
 }
 
 .StartHere {
@@ -2234,7 +2073,7 @@ text-align: center;
   justify-content: left;
   align-items: left;
   border: 2px solid #5e7700;
-  color:#2c3801;
+  color: #2c3801;
   padding: 5px;
 }
 
@@ -2247,8 +2086,8 @@ text-align: center;
   display: block;
 }
 
-.StartHere span, .StartHere p {
-
+.StartHere span,
+.StartHere p {
   text-align: left;
   padding: 0 8px 0 8px;
 }
@@ -2267,7 +2106,6 @@ text-align: center;
   display: block;
   text-align: center;
   margin: 8px 0 8px 0;
- 
 }
 
 .FoodtoHomeBtn-Div Button {
@@ -2278,7 +2116,7 @@ text-align: center;
 .FoodtoHomeBtn-Div Button:hover {
   align-items: center;
   box-shadow: 5px 5px #000;
-  color:#2c3801;
+  color: #2c3801;
   font-weight: bold;
 }
 
@@ -2286,4 +2124,59 @@ text-align: center;
   width: 20px;
 }
 
+/* -------------------------get consultant------------- */
+
+.Get-ConsultantDiv {
+  margin-top: 20px;
+  min-height: 95vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Get-Consultant-Inner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.Get-Consultant-Customer{
+  width: 50%;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: left;
+}
+.Get-Consultant-Inner h3{
+  text-align: center;
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Get-Consultant-Customer p {
+  text-align: left;
+  text-indent: 16px;
+}
+.Get-Consultants-Timings{
+  width: 50%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  flex-wrap: wrap;
+}
+.Get-Consultants-Timings p {
+  text-align: left;
+}
+.Get-Consultants-Timings p span {
+  font-weight: bold;
+}
+.Get-Consultants-Timings h5 {
+  text-align: center;
+  color: #db053b;
+}
+.Get-Consultants-Contacts {
+  display: inline-flex;
+  column-gap: 14px;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
 

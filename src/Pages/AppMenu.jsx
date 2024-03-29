@@ -8,45 +8,55 @@ import {
 import { useNavigate } from "react-router-dom";
 import useMenuState from "../useMenuState";
 import Logo from "../assets/diet-plate.png";
-import { useSelector } from "react-redux";
+import { connect, useSelector } from "react-redux"; // Import useDispatch
 
-export function AppMenu({ isInline = false }) {
+function AppMenu({ isLoggedIn, isInline = false, dispatch }) {
   const { closeMenu } = useMenuState();
   const navigate = useNavigate();
+  // const dispatch = useDispatch();
 
-  //this is added the item to cart and show qty in badge
+  const handleSignout = () => {
+    dispatch({ type: "LOGOUT" }); // Dispatch the logout action
+    localStorage.removeItem("user_data");
+    navigate("/signout");
+  };
+
+  // This is added to get the number of cart items
   const cartItems = useSelector((state) => state.itemShop.cartItems);
-  console.log(cartItems);
 
   const handleItemClick = (key) => {
-    if (key === "signout") {
-      // Perform sign out
+    if (key === "/signout") {
+      handleSignout();
     } else {
       navigate(key);
       closeMenu();
-      // Close the menu after selecting a page
     }
   };
 
-  const menuItems = [
+  const offMenu = [
     { icon: <img src={Logo} alt="Logo" className="logo" /> },
     { key: "/" },
-    {
-      key: "/home",
-      icon: <HomeOutlined style={{ fontSize: 22 }} />,
-    },
+    { label: "Signup", key: "/signup" },
+    { label: "Login", key: "/login" },
+  ];
+
+  const menuItems = [
+    { icon: <img src={Logo} alt="Logo" className="logo" /> },
+    { icon: <HomeOutlined style={{ fontSize: 22 }} />, key: "/home" },
     { label: "Diet Benifits", key: "/diet-benifits" },
     { label: "Diet Foods", key: "/diet-foods" },
     { label: "Diet Tips", key: "/diet-tips" },
     { label: "Products", key: "/all-products" },
+    { label: "Get Consultant", key: "/get-consultant" },
     { label: "About us", key: "/aboutus" },
-    { label: "Signup", key: "/signup" },
-    { label: "Login", key: "/login" },
     {
       key: "/signout",
-      icon: <PoweroffOutlined style={{ fontSize: 18 }} />,
+      icon: (
+        <PoweroffOutlined style={{ fontSize: 18 }} onClick={handleSignout} />
+      ),
     },
     {
+      label: "Cart",
       icon: (
         <Badge
           count={cartItems.length}
@@ -55,21 +65,43 @@ export function AppMenu({ isInline = false }) {
           <ShoppingCartOutlined style={{ fontSize: 24 }} />
         </Badge>
       ),
-      label: "Cart",
       key: "/cart",
     },
+    { key: "/get-consultant" },
     { key: "/feedback" },
+    { key: "/feedback-success" },
+    { key: "/bill-success-cash" },
+    { key: "/bill-success-card" },
+    { key: "/bill-payment" },
+    { key: "/fit-chart" },
+    { key: "/rating" },
   ];
-  
-  //for smaller device we can scroll the menu
- 
+
   return (
+ 
     <Menu
       onClick={({ key }) => handleItemClick(key)}
       mode={isInline ? "inline" : "horizontal"}
-      items={menuItems}
       style={isInline ? { overflowY: "auto" } : {}}
       className="menu"
-    />
+    >
+      {isLoggedIn
+        ? menuItems.map((item, index) => (
+            <Menu.Item key={item.key || index} icon={item.icon}>
+              {item.label}
+            </Menu.Item>
+          ))
+        : offMenu.map((item, index) => (
+            <Menu.Item key={item.key || index} icon={item.icon}>
+              {item.label}
+            </Menu.Item>
+          ))}
+    </Menu>
   );
 }
+
+const mapStateToProps = (state) => ({
+  isLoggedIn: state.auth.isLoggedIn,
+});
+
+export default connect(mapStateToProps)(AppMenu);

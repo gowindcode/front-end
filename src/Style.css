@@ -1921,6 +1921,13 @@
   .loginForm {
     display: flex;
     justify-content: center;
+    justify-content: left;
+    align-items: left;
+  }
+  .loginForm > .ant-col > .ant-form {
+    width: 30vw;
+    margin: 0% auto;
+    
   }
   .logImgs > img {
     height: 600px;
@@ -2149,5 +2156,6 @@
   .FeedbSuccess-Div-inner-texts >h3 {
     font-size: 22px;
   }
+
   
 }

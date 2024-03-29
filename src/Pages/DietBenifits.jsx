@@ -13,8 +13,8 @@ import { Button } from "antd";
 function DietBenifits() {
   const navigate = useNavigate();
   //navigate to signup page
-  const BenifitsClick2Sugnup = () => {
-    navigate("/signup");
+  const BenifitsClick2Products = () => {
+    navigate("/all-products");
   };
   return (
     <div className="Diet-Benifits">
@@ -258,7 +258,7 @@ function DietBenifits() {
         </div>
       </div>
       <div className="Benifits-BTN-DIV">
-        <Button onClick={BenifitsClick2Sugnup}>GET DIET</Button>
+        <Button onClick={BenifitsClick2Products}>GET DIET</Button>
       </div>
     </div>
   );

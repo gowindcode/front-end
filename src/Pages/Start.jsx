@@ -54,13 +54,15 @@ function Start() {
               <span>100%</span> fit.
             </p>
           </div>
-          <Link to="/signup">
+          
             <div className="GET-BTNDIV">
+            <Link to="/signup">
               <Button className="Diet-BTN" onClick={handleClick}>
                 GET DIET
               </Button>
+              </Link>
             </div>
-          </Link>
+          
         </div>
         <div className="home-girl">
           <img src={imageURL} alt="woman-png" />

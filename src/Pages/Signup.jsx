@@ -16,7 +16,7 @@ function Signup() {
       setLoading(false);
       if (response.data.message === "Signup successful.") {
         message.success(response.data.message);
-        navigate("/home");
+        navigate("/login");
       } else {
         console.error(
           "Error Message: Maybe Email or phone number already used."
@@ -136,6 +136,7 @@ function Signup() {
         </div>
         <div className="validDiv">
           <p>*Please enter valid details.</p>
+          <p>Already Registred, Please <a href="/login">login</a></p>
         </div>
       </div>
     </div>
@@ -143,3 +144,7 @@ function Signup() {
 }
 
 export default Signup;
+
+// ------------------------------------------------------------------
+
+

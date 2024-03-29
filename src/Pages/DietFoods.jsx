@@ -15,8 +15,8 @@ import { Button } from "antd";
 function DietFoods() {
   const navigate = useNavigate();
   //navigate to signup page
-  const clickFoodtoHome = () => {
-    navigate("/signup");
+  const clickFoodtoProducts = () => {
+    navigate("/all-products");
   };
 
   return (
@@ -259,7 +259,7 @@ function DietFoods() {
           <p>Don’t get distracted!</p>
         </div>
         <div className="FoodtoHomeBtn-Div">
-          <Button onClick={clickFoodtoHome}>
+          <Button onClick={clickFoodtoProducts}>
             <img src={Guvava} alt="Apple" /> Get Diet
           </Button>
         </div>

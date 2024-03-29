@@ -7,6 +7,7 @@ import DietFoods from "./Pages/DietFoods";
 import DietTips from "./Pages/DietTips";
 import Signup from "./Pages/Signup";
 import Aboutus from "./Pages/Aboutus";
+import GetConsultant from "./Pages/GetConsultant";
 import Feedback from "./Pages/Feedback";
 import FeedBackSuccess from "./Pages/FeedBackSuccess";
 import Login from "./Pages/Login";
@@ -32,6 +33,7 @@ function RoutersPath() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/aboutus" element={<Aboutus />} />
+        <Route path="/get-consultant" element={<GetConsultant/>} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/feedback-success" element={<FeedBackSuccess />} />
         <Route path="/cart" element={<Cart />} />
@@ -47,3 +49,4 @@ function RoutersPath() {
 }
 
 export default RoutersPath;
+
