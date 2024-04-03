@@ -18,6 +18,7 @@ DietBenifits.jsx
 DietFoods.jsx
 DietTips.jsx
 GetConsulatant.jsx (Newly added)
+KnowYours.jsx (Newly added)
 Feedback.jsx
 FeedBackSuccess.jsx
 FitChart.jsx
@@ -49,6 +50,8 @@ in DietFoods.jsx file code provides about diet foods and processed foods, so tha
 in DietTips.jsx file code provides common tips about diet.
 
 in Get Consultant file user can get Timing and Direct contact details of consultant.
+
+in Know Yours file user can enter his/her weight and height, so that system checks with data, then reply a message to user on screen.
 
 in Feedback.jsx file code help to get feedback from customers and users for update the service and products.
 
@@ -103,5 +106,7 @@ And please note we have added GetConsultant.jsx file in Pages folder. (Which is 
 once user logged in then user can hit the Get Consultant menu, the display appears with the details.
 
 And please note for 1400px display size we have adjusted the login page form size's.
+
+KnowYours.jsx file we added for user can check his/her height and weight, so based on that his/her know whether height and weight is fit or not and user can reach the "/get-consultant" page.
 
 ------------------------Thank you for reading this message.------------------------------------------

@@ -33,6 +33,7 @@
   width: 100%;
   z-index: 1000;
   padding-top: 10px;
+  scroll-behavior: smooth;
 }
 
 .MenuOutlined {
@@ -42,8 +43,6 @@
 .menuIcon {
   background-color: #aedd05;
   height: 60px;
-  /* padding-left: 12px; */
-  /* padding-right: 12px */
 }
 
 .logo {
@@ -1541,6 +1540,14 @@ h3 {
   align-items: center;
 }
 
+.Tips-Details-top a {
+  font-weight: bold;
+  cursor: pointer;
+}
+.Tips-Details-top a:hover {
+  color: #db053b;
+  text-decoration: underline;
+}
 .Tips-Details-1 {
   width: 96vw;
   border: 2px solid #5e7700;
@@ -1881,8 +1888,9 @@ span {
   background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
   min-height: 100vh;
   display: flex;
-  /* justify-content: center; */
+  align-items: center;
   flex-direction: column;
+
 }
 
 .Signout-Div h5 {
@@ -1897,7 +1905,20 @@ span {
   text-shadow: #ffffff 3px 3px;
   font-weight: bold;
 }
-
+.SignOutTo-Login {
+  font-weight: bold;
+}
+.SignOutTo-Login:hover {
+  
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 10px 10px 10px yellow;
+  background-color: #3d4d05;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+  width: 10vw;
+}
 /* ----------------------------------------Diet Foods--------------------------------------------------- */
 
 .Diet-foods-Div {
@@ -1908,6 +1929,7 @@ span {
   background-image: linear-gradient(#aedd05, rgba(163, 180, 3, 0.74));
   height: max-content;
   padding: 10px;
+  margin-top: 8px;
 }
 
 .Diet-foods-Div h3 {
@@ -2149,7 +2171,7 @@ p {
 .Get-Consultant-Inner h3{
   text-align: center;
   text-decoration: underline;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Anta", sans-serif;
 }
 .Get-Consultant-Customer p {
   text-align: left;
@@ -2163,9 +2185,15 @@ p {
   align-items: left;
   flex-wrap: wrap;
 }
+.Get-Consultants-Timings >p:hover {
+  background-color: yellow;
+  border-radius: 10px;
+  text-align: center;
+}
 .Get-Consultants-Timings p {
   text-align: left;
 }
+
 .Get-Consultants-Timings p span {
   font-weight: bold;
 }
@@ -2179,4 +2207,88 @@ p {
   flex-wrap: wrap;
   font-weight: bold;
 }
+.Get-Consultants-Contacts p:hover{
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 6px;
+}
+.Get-consultant-pera {
+  color: #2c3801;
+  box-shadow: 5px 5px 5px yellow;
+}
 
+.Get-consultant-pera:hover {
+
+  box-shadow: 10px 10px 10px 10px yellow;
+  border: 2px solid rgb(1, 61, 6);
+  padding: 8px;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+.Get-consultant-click {
+  margin-top: 10px;
+}
+
+.Get-consultant-click a{
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Get-consultant-click > a:hover {
+  color:#db053b;
+  cursor: pointer;
+  text-decoration: underline;
+  font-style: normal;
+  box-shadow: 5px 5px 5px #000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* ------------------------------KnowYours Div----------------------- */
+.KnowYours-Div {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.KnowYours-Div h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.KnowYours-Form {
+  width: 40%;
+}
+.message {
+  text-wrap: wrap;
+  overflow: auto;
+  text-overflow: ellipsis;
+  background-color: yellowgreen;
+  width: 40%;
+  border: #3d4d05;
+  border-radius: 10px;
+  padding: 10px;
+}
+.caution-msg {
+  color: red;
+  margin-top: 6px;
+  font: optional;
+}
+.message:hover {
+  box-shadow: 5px 5px 5px #000;
+  font-weight: bold;
+  border: #2c3801;
+}
+.message-Btns{
+ text-align: center;
+ padding-right: 10px;
+}
+.message-Btns button {
+  margin-right: 10px;
+}
+.KnowYours-Btn button:hover {
+  box-shadow: 5px 5px 5px #000;
+  font-weight: bold;
+}

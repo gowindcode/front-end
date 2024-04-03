@@ -54,7 +54,7 @@ function DietTips() {
           <h3>Interpretation of the height and weight chart</h3>
           <p>
             The{" "}
-            <a href="fit-chart" onClick={HeightWeightChartClick}>
+            <a href={HeightWeightChartClick} onClick={HeightWeightChartClick}>
               height and weight chart
             </a>{" "}
             is meant to help you evaluate the association between the two
@@ -148,7 +148,7 @@ function DietTips() {
             <div>
               <p>
                 The efficacy of the{" "}
-                <a href="fit-chart" onClick={HeightWeightChartClick}>
+                <a href={HeightWeightChartClick} onClick={HeightWeightChartClick}>
                   height-weight charts{" "}
                 </a>
                 is most pronounced in adults as the measurements are
@@ -338,7 +338,7 @@ function DietTips() {
             <div className="Tips-Details-5-inner-content">
               <p>
                 The{" "}
-                <a href="fit-chart" onClick={HeightWeightChartClick}>
+                <a href={HeightWeightChartClick} onClick={HeightWeightChartClick}>
                   height and weight chart{" "}
                 </a>
                 is a useful indicator of overall health but as we have seen it
@@ -386,7 +386,7 @@ function DietTips() {
           <h3>Conclusion</h3>
           <p>
             In conclusion, relying entirely on the{" "}
-            <a href="fit-chart" onClick={HeightWeightChartClick}>
+            <a href={HeightWeightChartClick} onClick={HeightWeightChartClick}>
               height and weight chart{" "}
             </a>
             to determine what your ideal weight is not recommended...

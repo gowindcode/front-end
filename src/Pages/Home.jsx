@@ -13,7 +13,7 @@ function Home() {
 
   //navigate to do=iet-benifits page
   const KnowMoreClick = () => {
-    navigate("/diet-benifits");
+    navigate("/know-my-fit");
   };
   return (
     <div className="HomeDiv">
@@ -63,7 +63,7 @@ function Home() {
             </div>
             <div>
               <Button className="knowMore-BTN" onClick={KnowMoreClick}>
-                Know More
+                Know My Fit
               </Button>
             </div>
           </div>

@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function GetConsultant() {
+  
+  const navigate = useNavigate();
+  const handleClickToProducts = () => {
+    
+   navigate("/all-products");
+  }
   return (
     <div className="Get-ConsultantDiv">
       <div className="Get-Consultant-Inner">
@@ -50,8 +57,9 @@ function GetConsultant() {
           <p> +91 76007 86010</p>
           <p> +91 76007 86012</p>
         </div>
-        <p>
-          Back to <a href="/all-products">Products</a>
+        <p className="Get-consultant-pera">Price and charge details you can get via phone call and your registred email.</p>
+        <p className="Get-consultant-click">
+          Back to <a href={handleClickToProducts} onClick={handleClickToProducts}>Products</a>
         </p>
       </div>
     </div>

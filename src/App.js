@@ -1,11 +1,13 @@
 import "./App.css";
 import RoutersPath from "./RoutersPath";
+import ScrollToTop from "./ScrollToTop";
 import Footer from "./Pages/Footer";
 import React from "react";
 import { Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import AppMenu from "./Pages/AppMenu";
 import useMenuState from "../src/useMenuState";
+
 
 function App() {
   const { openMenu, toggleMenu, closeMenu } = useMenuState();
@@ -31,10 +33,14 @@ function App() {
       <Drawer {...drawerProps}>
         <AppMenu isInline closeMenu={closeMenu} />
       </Drawer>
+      
       <RoutersPath />
+      <ScrollToTop/>
       <Footer />
     </div>
   );
 }
 
 export default App;
+
+// ----------------------------------------------------------------------

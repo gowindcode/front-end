@@ -18,7 +18,7 @@ const womenColumns = [
 ];
 
 // ----------------------------Height weight details of women---------------------
-const womenData = [
+export const womenData = [
   {
     key: "1",
     height: "4′ 6″ (137 cm)",
@@ -138,7 +138,7 @@ const womenData = [
 
 // ----------------------Height weight details of men---------------------
 
-const menColumns = [
+export const menColumns = [
   {
     title: "Height",
     dataIndex: "height",
