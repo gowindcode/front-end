@@ -254,7 +254,7 @@ function AppMenu({ isLoggedIn, isInline = false, dispatch }) {
   const handleSignout = () => {
     dispatch({ type: "LOGOUT" });
     localStorage.removeItem("user_data");
-    navigate("/signout");
+    navigate("/login");
   };
 
   const cartItems = useSelector((state) => state.itemShop.cartItems);
